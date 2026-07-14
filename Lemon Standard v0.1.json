@@ -1,5 +1,5 @@
 {
-    "ruleset": "Lemon Standard",
+    "ruleset": "Lemon Standard v0.1",
     "hammers_per_turn": 1,
     "ant_limit": 4,
     "deck_size_min": 20,
@@ -1352,25 +1352,28 @@
         },
         {
             "name": "Emerald Mox",
-            "sigils": ["Green Mox"],
+            "sigils": ["Green Mox", "Mutator"],
             "attack": 0,
             "health": 1,
+            "evolution": "Ruby Mox",
             "nosac": true,
             "banned": true
         },
         {
             "name": "Ruby Mox",
-            "sigils": ["Orange Mox"],
+            "sigils": ["Orange Mox", "Mutator"],
             "attack": 0,
             "health": 1,
+            "evolution": "Sapphire Mox",
             "nosac": true,
             "banned": true
         },
         {
             "name": "Sapphire Mox",
-            "sigils": ["Blue Mox"],
+            "sigils": ["Blue Mox", "Mutator"],
             "attack": 0,
             "health": 1,
+            "evolution": "Emerald Mox",
             "nosac": true,
             "banned": true
         },
