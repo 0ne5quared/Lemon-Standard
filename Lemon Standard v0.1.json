@@ -624,7 +624,7 @@
             "attack": 0,
             "health": 1,
             "atkspecial": "ant",
-            "bone_cost": 4
+            "bone_cost": 4,
             "sigils": ["Airborne"]
         },
         {
