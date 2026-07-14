@@ -10,8 +10,8 @@
     "allow_snuffing_candles": true,
     "opt_actives": false,
     "enable_backrow": false,
-    "portrait": "portraits/Stoat",
-    "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
+    "portrait": "portraits/Geck",
+    "description": "What if i made the game worse",
     "cards": [
         {
             "name": "Starvation",
@@ -606,34 +606,34 @@
         },
         {
             "name": "Worker Ant",
-            "attack": -1,
-            "health": 2,
+            "attack": 0,
+            "health": 1,
             "atkspecial": "ant",
-            "blood_cost": 1
+            "bone_cost": 4
         },
         {
             "name": "Ant Queen",
-            "attack": -1,
-            "health": 3,
+            "attack": 0,
+            "health": 2,
             "atkspecial": "ant",
             "blood_cost": 2,
             "sigils": ["Ant Spawner"]
         },
         {
             "name": "Flying Ant",
-            "attack": -1,
+            "attack": 0,
             "health": 1,
             "atkspecial": "ant",
-            "blood_cost": 1,
+            "bone_cost": 4
             "sigils": ["Airborne"]
         },
         {
             "name": "Bullet Ant",
-            "attack": -1,
+            "attack": 0,
             "health": 3,
             "atkspecial": "ant",
-            "blood_cost": 3,
-            "sigils": ["Double Strike"],
+            "blood_cost": 2,
+            "sigils": ["Touch of Death"],
             "description": "Custom card by FishGuy101.\nCard art by Mark"
         },
         {
@@ -1893,15 +1893,15 @@
             "type": "single_cat",
             "cards": {
                 "10 Blue": {
-                    "card": "Sapphire Vessel",
+                    "card": "Sapphire Mox",
                     "count": 10
                 },
                 "10 Green": {
-                    "card": "Emerald Vessel",
+                    "card": "Emerald Mox",
                     "count": 10
                 },
                 "10 Orange": {
-                    "card": "Ruby Vessel",
+                    "card": "Ruby Mox",
                     "count": 10
                 },
             },
