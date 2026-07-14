@@ -1247,7 +1247,7 @@
             "sigils": ["Airborne"],
             "attack": 1,
             "health": 2,
-            "mox_cost": ["Blue"]
+            "mox_cost": ["Blue", "Orange"]
         },
         {
             "name": "Force Mage",
@@ -1281,7 +1281,7 @@
         {
             "name": "Green Mage",
             "attack": 0,
-            "health": 2,
+            "health": 3,
             "mox_cost": ["Green"],
             "atkspecial": "mox",
             "description": "This card's attack is equal to the number of \"Mox\" cards you possess."
@@ -1289,29 +1289,29 @@
         {
             "name": "Junior Sage",
             "attack": 1,
-            "health": 2,
+            "health": 3,
             "mox_cost": ["Green"]
         },
         {
             "name": "Mage Knight",
-            "sigils": ["Gem Dependant"],
+            "sigils": ["Armored", "Gem Dependant"],
             "attack": 1,
             "health": 3,
-            "mox_cost": ["Orange"]
+            "mox_cost": ["Orange", "Green"]
         },
         {
             "name": "Master Bleene",
             "sigils": ["True Scholar"],
             "attack": 0,
-            "health": 4,
+            "health": 1,
             "mox_cost": ["Green", "Blue"],
             "rare": true,
             "active": true
         },
         {
             "name": "Master Goranj",
-            "sigils": ["Gem Dependant", "Bifurcated Strike"],
-            "attack": 2,
+            "sigils": ["Gem Dependant"],
+            "attack": 3,
             "health": 4,
             "mox_cost": ["Green", "Orange"],
             "rare": true,
@@ -1330,7 +1330,7 @@
             "name": "Bleene's Mox",
             "sigils": ["Blue Mox", "Green Mox"],
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "rare": true,
             "nosac": true
         },
@@ -1338,7 +1338,7 @@
             "name": "Goranj's Mox",
             "sigils": ["Green Mox", "Orange Mox"],
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "rare": true,
             "nosac": true
         },
@@ -1346,7 +1346,7 @@
             "name": "Orlu's Mox",
             "sigils": ["Orange Mox", "Blue Mox"],
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "rare": true,
             "nosac": true
         },
@@ -1389,23 +1389,22 @@
         {
             "name": "Muscle Mage",
             "sigils": ["Hefty"],
-            "attack": 1,
+            "attack": 2,
             "health": 2,
-            "mox_cost": ["Green"]
+            "mox_cost": ["Green", "Orange"]
         },
         {
             "name": "Orange Mage",
             "sigils": ["Gem Animator"],
             "attack": 0,
-            "health": 1,
+            "health": 2,
             "mox_cost": ["Orange"]
         },
         {
             "name": "Practice Wizard",
             "attack": 0,
             "health": 3,
-            "sigils": ["Made of Stone"],
-            "mox_cost": ["Orange"]
+            "sigils": ["Reconstitute", "Gem Dependant"],
         },
         {
             "name": "Mage Pupil",
@@ -1425,8 +1424,8 @@
             "name": "Stim Mage",
             "sigils": ["Stimulate"],
             "attack": 0,
-            "health": 2,
-            "mox_cost": ["Green"],
+            "health": 3,
+            "mox_cost": ["Green", "Blue"],
             "active": true
         },
         {
@@ -1466,8 +1465,8 @@
             "attack": 1,
             "health": 1,
             "sigils": ["Unkillable"],
-            "mox_cost": ["Blue"],
-            "bone_cost": 3,
+            "mox_cost": ["Blue", "Orange"],
+            "bone_cost": 2,
             "description": "Custom card by FishGuy101"
         },
         {
@@ -1492,16 +1491,16 @@
             "mox_cost": ["Green"],
             "sigils": ["Stinky"],
             "attack": 1,
-            "health": 1,
+            "health": 2,
             "description": "Custom card by FishGuy101"
         },
         {
             "name": "Holo Mox",
-            "mox_cost": ["Orange"],
-            "sigils": ["Armored"],
-            "energy_cost": 2,
-            "attack": 0,
-            "health": 1,
+            "mox_cost": ["Orange", "Green", "Blue"],
+            "sigils": ["Gem Dependant"],
+            "energy_cost": 3,
+            "attack": 3,
+            "health": 3,
             "description": "Custom card by FishGuy101"
         },
         {
@@ -1517,7 +1516,7 @@
             "name": "Winged Guardian",
             "mox_cost": ["Orange", "Blue"],
             "attack": 1,
-            "health": 3,
+            "health": 5,
             "sigils": ["Airborne", "Mighty Leap"],
             "description": "Custom card by Flare"
         },
@@ -1525,7 +1524,7 @@
             "name": "Swift Sage",
             "mox_cost": ["Green", "Blue"],
             "attack": 1,
-            "health": 2,
+            "health": 4,
             "sigils": ["Sharp Quills", "Sprinter"],
             "description": "Custom card by Flare"
         },
@@ -1541,7 +1540,7 @@
             "name": "Animox",
             "blood_cost": 1,
             "attack": 1,
-            "health": 2,
+            "health": 4,
             "sigils": ["Blue Mox", "Sprinter"],
             "description": "Custom card by SYNTHIA_2000"
         },
@@ -1890,10 +1889,21 @@
                 }
             }
         },
-        "Mox (draft)": {
-            "type": "draft",
-            "cards": ["Ruby Mox", "Emerald Mox", "Sapphire Mox"],
-            "count": 10
+        "Mox": {
+            "type": "single_cat",
+            "cards": {
+                "10 Blue": {
+                    "card": "Sapphire Vessel",
+                    "count": 10
+                },
+                "10 Green": {
+                    "card": "Emerald Vessel",
+                    "count": 10
+                },
+                "10 Orange": {
+                    "card": "Ruby Vessel",
+                    "count": 10
+                },
         },
         "3 Gecks": {
             "type": "single",
