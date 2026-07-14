@@ -4,7 +4,6 @@ extends SigilEffect
 func handle_event(event: String, params: Array):
 
 	if event == "card_summoned" and not card.in_hand and params[0] == is_friendly:
-		if params[0] != card:
     	var dmgTaken = card.card_data["health"] - card.health
     	card.from_data(CardInfo.from_name(card.card_data["evolution"]))
     	card.health = card.card_data["health"] - dmgTaken
