@@ -1,8 +1,8 @@
 {
-    "ruleset": "IMF Standard v0.43",
+    "ruleset": "Lemon Standard",
     "hammers_per_turn": 1,
-    "ant_limit": 2,
-    "deck_size_min": 1,
+    "ant_limit": 4,
+    "deck_size_min": 20,
     "max_commons_main": 4,
     "max_commons_side": 10,
     "num_candles": 2,
@@ -1719,6 +1719,7 @@
     	"Mental Gemnastics": "When a card bearing this sigil is played, you draw cards equal to the amount of mox cards on your side of the board.",
     	"Mighty Leap": "A card bearing this sigil will block an opposing creature bearing the airborne sigil.",
     	"Music Player": "A card bearing this sigil plays a song of your choice when played",
+        "Mutator": "A card bearing this sigil transforms when a card is played by it's owner"
     	"Noble Sacrifice": "A card bearing this sigil is counted as 2 blood rather than 1 blood when sacrificed.",
     	"Orange Mox": "While a card bearing this sigil is on the board, it provides an orange gem to its owner.",
     	"Omni Strike": "A card bearing this sigil will strike all opposing spaces.",
@@ -1913,11 +1914,11 @@
         }
     },
     "custom_sigils": {
-        "Chungus": {
-            "description": "Big",
-            "author": "107zxz",
-            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-scripts/main/Chungus.gd",
-            "icon_url": "https://raw.githubusercontent.com/107zxz/inscr-onln/main/gfx/sigils/Airborne.png"
+        "Mutator": {
+            "description": "A card bearing this sigil transforms when a card is played by it's owner",
+            "author": "0ne5quared",
+            "url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/main/Sigils/SigilScript/Mutator.gd",
+            "icon_url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/main/Sigils/SigilArt/Mutator.png"
         }
     }
 }
