@@ -1,8 +1,8 @@
 {
-    "ruleset": "IMF Standard v0.43",
+    "ruleset": "Lemon Standard v0.1",
     "hammers_per_turn": 1,
-    "ant_limit": 2,
-    "deck_size_min": 1,
+    "ant_limit": 4,
+    "deck_size_min": 20,
     "max_commons_main": 4,
     "max_commons_side": 10,
     "num_candles": 2,
@@ -10,8 +10,8 @@
     "allow_snuffing_candles": true,
     "opt_actives": false,
     "enable_backrow": false,
-    "portrait": "portraits/Stoat",
-    "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
+    "portrait": "portraits/Geck",
+    "description": "Testing random changes",
     "cards": [
         {
             "name": "Starvation",
@@ -606,34 +606,34 @@
         },
         {
             "name": "Worker Ant",
-            "attack": -1,
-            "health": 2,
+            "attack": 0,
+            "health": 1,
             "atkspecial": "ant",
-            "blood_cost": 1
+            "bone_cost": 4
         },
         {
             "name": "Ant Queen",
-            "attack": -1,
-            "health": 3,
+            "attack": 0,
+            "health": 2,
             "atkspecial": "ant",
             "blood_cost": 2,
             "sigils": ["Ant Spawner"]
         },
         {
             "name": "Flying Ant",
-            "attack": -1,
+            "attack": 0,
             "health": 1,
             "atkspecial": "ant",
-            "blood_cost": 1,
+            "bone_cost": 5,
             "sigils": ["Airborne"]
         },
         {
             "name": "Bullet Ant",
-            "attack": -1,
+            "attack": 0,
             "health": 3,
             "atkspecial": "ant",
-            "blood_cost": 3,
-            "sigils": ["Double Strike"],
+            "blood_cost": 2,
+            "sigils": ["Touch of Death"],
             "description": "Custom card by FishGuy101.\nCard art by Mark"
         },
         {
