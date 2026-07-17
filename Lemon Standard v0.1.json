@@ -1376,12 +1376,11 @@
         },
         {
             "name": "Magnus Mox",
-            "sigils": ["Great Mox"],
+            "sigils": ["Great Mox", "Mutator"],
             "attack": 0,
             "health": 2,
+            "transforms": "Rabbit Pelt",
             "nosac": true,
-            "banned": true,
-            "rare": true
         },
         {
             "name": "Muscle Mage",
@@ -1719,6 +1718,7 @@
     	"Mental Gemnastics": "When a card bearing this sigil is played, you draw cards equal to the amount of mox cards on your side of the board.",
     	"Mighty Leap": "A card bearing this sigil will block an opposing creature bearing the airborne sigil.",
     	"Music Player": "A card bearing this sigil plays a song of your choice when played",
+        "Mutator": "When a friendly card is played a card bearing this sigil transforms.",
     	"Noble Sacrifice": "A card bearing this sigil is counted as 2 blood rather than 1 blood when sacrificed.",
     	"Orange Mox": "While a card bearing this sigil is on the board, it provides an orange gem to its owner.",
     	"Omni Strike": "A card bearing this sigil will strike all opposing spaces.",
@@ -1860,7 +1860,7 @@
         },
         "Mox (draft)": {
             "type": "draft",
-            "cards": ["Ruby Mox", "Emerald Mox", "Sapphire Mox"],
+            "cards": ["Ruby Mox", "Emerald Mox", "Sapphire Mox", "Magnus Mox"],
             "count": 10
         },
         "3 Gecks": {
@@ -1885,5 +1885,11 @@
         }
     },
     "custom_sigils": {
+		"Mutator":{
+		"description": "When a friendly card is played a card bearing this sigil transforms.",
+		"author": "0ne5quared",
+		"url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/refs/heads/main/Sigils/SigilScript/Mutator.gd",
+		"icon_url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/refs/heads/main/Sigils/SigilArt/Mutator.png"
+	}
     }
 }
