@@ -1378,7 +1378,7 @@
             "name": "Magnus Mox",
             "sigils": ["Great Mox", "Mutator"],
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "transforms": "Rabbit Pelt",
             "nosac": true,
         },
