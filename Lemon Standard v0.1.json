@@ -1,8 +1,8 @@
 {
-    "ruleset": "Lemon Standard v0.1",
+    "ruleset": "IMF Standard v0.43",
     "hammers_per_turn": 1,
-    "ant_limit": 4,
-    "deck_size_min": 20,
+    "ant_limit": 2,
+    "deck_size_min": 1,
     "max_commons_main": 4,
     "max_commons_side": 10,
     "num_candles": 2,
@@ -10,8 +10,8 @@
     "allow_snuffing_candles": true,
     "opt_actives": false,
     "enable_backrow": false,
-    "portrait": "portraits/Geck",
-    "description": "What if i made the game worse",
+    "portrait": "portraits/Stoat",
+    "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
     "cards": [
         {
             "name": "Starvation",
@@ -606,34 +606,34 @@
         },
         {
             "name": "Worker Ant",
-            "attack": 0,
-            "health": 1,
+            "attack": -1,
+            "health": 2,
             "atkspecial": "ant",
-            "bone_cost": 4
+            "blood_cost": 1
         },
         {
             "name": "Ant Queen",
-            "attack": 0,
-            "health": 2,
+            "attack": -1,
+            "health": 3,
             "atkspecial": "ant",
             "blood_cost": 2,
             "sigils": ["Ant Spawner"]
         },
         {
             "name": "Flying Ant",
-            "attack": 0,
+            "attack": -1,
             "health": 1,
             "atkspecial": "ant",
-            "bone_cost": 4,
+            "blood_cost": 1,
             "sigils": ["Airborne"]
         },
         {
             "name": "Bullet Ant",
-            "attack": 0,
+            "attack": -1,
             "health": 3,
             "atkspecial": "ant",
-            "blood_cost": 2,
-            "sigils": ["Touch of Death"],
+            "blood_cost": 3,
+            "sigils": ["Double Strike"],
             "description": "Custom card by FishGuy101.\nCard art by Mark"
         },
         {
@@ -1247,7 +1247,7 @@
             "sigils": ["Airborne"],
             "attack": 1,
             "health": 2,
-            "mox_cost": ["Blue", "Orange"]
+            "mox_cost": ["Blue"]
         },
         {
             "name": "Force Mage",
@@ -1281,7 +1281,7 @@
         {
             "name": "Green Mage",
             "attack": 0,
-            "health": 3,
+            "health": 2,
             "mox_cost": ["Green"],
             "atkspecial": "mox",
             "description": "This card's attack is equal to the number of \"Mox\" cards you possess."
@@ -1289,29 +1289,29 @@
         {
             "name": "Junior Sage",
             "attack": 1,
-            "health": 3,
+            "health": 2,
             "mox_cost": ["Green"]
         },
         {
             "name": "Mage Knight",
-            "sigils": ["Armored", "Gem Dependant"],
+            "sigils": ["Gem Dependant"],
             "attack": 1,
             "health": 3,
-            "mox_cost": ["Orange", "Green"]
+            "mox_cost": ["Orange"]
         },
         {
             "name": "Master Bleene",
             "sigils": ["True Scholar"],
             "attack": 0,
-            "health": 1,
+            "health": 4,
             "mox_cost": ["Green", "Blue"],
             "rare": true,
             "active": true
         },
         {
             "name": "Master Goranj",
-            "sigils": ["Gem Dependant"],
-            "attack": 3,
+            "sigils": ["Gem Dependant", "Bifurcated Strike"],
+            "attack": 2,
             "health": 4,
             "mox_cost": ["Green", "Orange"],
             "rare": true,
@@ -1330,7 +1330,7 @@
             "name": "Bleene's Mox",
             "sigils": ["Blue Mox", "Green Mox"],
             "attack": 0,
-            "health": 1,
+            "health": 2,
             "rare": true,
             "nosac": true
         },
@@ -1338,7 +1338,7 @@
             "name": "Goranj's Mox",
             "sigils": ["Green Mox", "Orange Mox"],
             "attack": 0,
-            "health": 1,
+            "health": 2,
             "rare": true,
             "nosac": true
         },
@@ -1346,34 +1346,31 @@
             "name": "Orlu's Mox",
             "sigils": ["Orange Mox", "Blue Mox"],
             "attack": 0,
-            "health": 1,
+            "health": 2,
             "rare": true,
             "nosac": true
         },
         {
             "name": "Emerald Mox",
-            "sigils": ["Green Mox", "Mutator"],
+            "sigils": ["Green Mox"],
             "attack": 0,
             "health": 1,
-            "evolution": "Ruby Mox",
             "nosac": true,
             "banned": true
         },
         {
             "name": "Ruby Mox",
-            "sigils": ["Orange Mox", "Mutator"],
+            "sigils": ["Orange Mox"],
             "attack": 0,
             "health": 1,
-            "evolution": "Sapphire Mox",
             "nosac": true,
             "banned": true
         },
         {
             "name": "Sapphire Mox",
-            "sigils": ["Blue Mox", "Mutator"],
+            "sigils": ["Blue Mox"],
             "attack": 0,
             "health": 1,
-            "evolution": "Emerald Mox",
             "nosac": true,
             "banned": true
         },
@@ -1389,22 +1386,23 @@
         {
             "name": "Muscle Mage",
             "sigils": ["Hefty"],
-            "attack": 2,
+            "attack": 1,
             "health": 2,
-            "mox_cost": ["Green", "Orange"]
+            "mox_cost": ["Green"]
         },
         {
             "name": "Orange Mage",
             "sigils": ["Gem Animator"],
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "mox_cost": ["Orange"]
         },
         {
             "name": "Practice Wizard",
             "attack": 0,
             "health": 3,
-            "sigils": ["Reconstitute", "Gem Dependant"],
+            "sigils": ["Made of Stone"],
+            "mox_cost": ["Orange"]
         },
         {
             "name": "Mage Pupil",
@@ -1424,8 +1422,8 @@
             "name": "Stim Mage",
             "sigils": ["Stimulate"],
             "attack": 0,
-            "health": 3,
-            "mox_cost": ["Green", "Blue"],
+            "health": 2,
+            "mox_cost": ["Green"],
             "active": true
         },
         {
@@ -1465,8 +1463,8 @@
             "attack": 1,
             "health": 1,
             "sigils": ["Unkillable"],
-            "mox_cost": ["Blue", "Orange"],
-            "bone_cost": 2,
+            "mox_cost": ["Blue"],
+            "bone_cost": 3,
             "description": "Custom card by FishGuy101"
         },
         {
@@ -1491,16 +1489,16 @@
             "mox_cost": ["Green"],
             "sigils": ["Stinky"],
             "attack": 1,
-            "health": 2,
+            "health": 1,
             "description": "Custom card by FishGuy101"
         },
         {
             "name": "Holo Mox",
-            "mox_cost": ["Orange", "Green", "Blue"],
-            "sigils": ["Gem Dependant"],
-            "energy_cost": 3,
-            "attack": 3,
-            "health": 3,
+            "mox_cost": ["Orange"],
+            "sigils": ["Armored"],
+            "energy_cost": 2,
+            "attack": 0,
+            "health": 1,
             "description": "Custom card by FishGuy101"
         },
         {
@@ -1516,7 +1514,7 @@
             "name": "Winged Guardian",
             "mox_cost": ["Orange", "Blue"],
             "attack": 1,
-            "health": 5,
+            "health": 3,
             "sigils": ["Airborne", "Mighty Leap"],
             "description": "Custom card by Flare"
         },
@@ -1524,7 +1522,7 @@
             "name": "Swift Sage",
             "mox_cost": ["Green", "Blue"],
             "attack": 1,
-            "health": 4,
+            "health": 2,
             "sigils": ["Sharp Quills", "Sprinter"],
             "description": "Custom card by Flare"
         },
@@ -1540,7 +1538,7 @@
             "name": "Animox",
             "blood_cost": 1,
             "attack": 1,
-            "health": 4,
+            "health": 2,
             "sigils": ["Blue Mox", "Sprinter"],
             "description": "Custom card by SYNTHIA_2000"
         },
@@ -1554,17 +1552,18 @@
         {
             "name": "Empty Vessel",
             "attack": 0,
-            "health": 3,
-            "energy_cost": 1,
+            "health": 2,
+            "energy_cost": -1,
             "nosac": true,
             "banned": true
         },
         {
             "name": "Leaping Vessel",
-            "sigils": ["Mighty Leap"],
+            "sigils": ["Mighty Leap", "Fledgling"],
             "attack": 0,
             "health": 2,
             "energy_cost": 2,
+            "evolution": "L33pB0t",
             "nosac": true,
             "banned": true
         },
@@ -1573,7 +1572,7 @@
             "sigils": ["Battery Bearer"],
             "attack": 0,
             "health": 2,
-            "energy_cost": 2,
+            "energy_cost": 1,
             "nosac": true,
             "banned": true
         },
@@ -1584,14 +1583,13 @@
             "health": 2,
             "energy_cost": 3,
             "banned": true,
-            "description": "Note: Energy cost increased due to opponent not having enough time to build a board before bloody vessel is usable."
         },
         {
             "name": "Splintered Vessel",
-            "sigils": ["Sharp Quills"],
+            "sigils": ["Sharp Quills", "Bone King"],
             "attack": 0,
             "health": 2,
-            "energy_cost": 2,
+            "energy_cost": 3,
             "nosac": true,
             "banned": true
         },
@@ -1599,7 +1597,7 @@
             "name": "Conductive Vessel",
             "attack": 0,
             "health": 2,
-            "energy_cost": 1,
+            "energy_cost": 0,
             "nosac": true,
             "conduit": true,
             "banned": true
@@ -1609,7 +1607,7 @@
             "sigils": ["Stinky"],
             "attack": 0,
             "health": 2,
-            "energy_cost": 2,
+            "energy_cost": 1,
             "nosac": true,
             "banned": true
         },
@@ -1641,10 +1639,10 @@
         },
         {
             "name": "Moon Shard",
-            "sigils": ["Mighty Leap", "Made of Stone"],
-            "energy_cost": 6,
+            "sigils": ["Unkillable", "Made of Stone"],
+            "bone_cost": 2,
             "attack": 0,
-            "health": 5,
+            "health": 3,
             "nosac": false,
             "description": "Emits a pale white light. You feel as though it calls to its brethren.",
             "banned": true
@@ -1721,7 +1719,6 @@
     	"Mental Gemnastics": "When a card bearing this sigil is played, you draw cards equal to the amount of mox cards on your side of the board.",
     	"Mighty Leap": "A card bearing this sigil will block an opposing creature bearing the airborne sigil.",
     	"Music Player": "A card bearing this sigil plays a song of your choice when played",
-        "Mutator": "A card bearing this sigil transforms when a card is played by it's owner",
     	"Noble Sacrifice": "A card bearing this sigil is counted as 2 blood rather than 1 blood when sacrificed.",
     	"Orange Mox": "While a card bearing this sigil is on the board, it provides an orange gem to its owner.",
     	"Omni Strike": "A card bearing this sigil will strike all opposing spaces.",
@@ -1856,55 +1853,15 @@
             "card": "Skeleton",
             "count": 10
         },
-        "Vessels": {
-            "type": "single_cat",
-            "cards": {
-                "10 Empty": {
-                    "card": "Empty Vessel",
-                    "count": 10
-                },
-                "10 Leaping": {
-                    "card": "Leaping Vessel",
-                    "count": 10
-                },
-                "10 Energized": {
-                    "card": "Energized Vessel",
-                    "count": 10
-                },
-                "10 Bloody": {
-                    "card": "Bloody Vessel",
-                    "count": 10
-                },
-                "10 Splintered": {
-                    "card": "Splintered Vessel",
-                    "count": 10
-                },
-                "10 Conductive": {
-                    "card": "Conductive Vessel",
-                    "count": 10
-                },
-                "10 Contaminated": {
-                    "card": "Contaminated Vessel",
-                    "count": 10
-                }
-            }
+        "Vessels (draft)": {
+            "type": "draft",
+            "cards": ["Empty Vessel", "Leaping Vessel", "Energized Vessel", "Bloody Vessel", "Splintered Vessel", "Conductive Vessel", "Contaminated Vessel"],
+            "count": 10
         },
-        "Mox": {
-            "type": "single_cat",
-            "cards": {
-                "10 Blue": {
-                    "card": "Sapphire Mox",
-                    "count": 10
-                },
-                "10 Green": {
-                    "card": "Emerald Mox",
-                    "count": 10
-                },
-                "10 Orange": {
-                    "card": "Ruby Mox",
-                    "count": 10
-                },
-            },
+        "Mox (draft)": {
+            "type": "draft",
+            "cards": ["Ruby Mox", "Emerald Mox", "Sapphire Mox"],
+            "count": 10
         },
         "3 Gecks": {
             "type": "single",
@@ -1921,18 +1878,12 @@
             "card": "Shambling Cairn",
             "count": 10
         },
-        "10 Moon Shards": {
+        "4 Moon Shards": {
             "type": "single",
             "card": "Moon Shard",
-            "count": 10
+            "count": 4
         }
     },
     "custom_sigils": {
-        "Mutator": {
-            "description": "A card bearing this sigil transforms when a card is played by it's owner",
-            "author": "0ne5quared",
-            "url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/main/Sigils/SigilScript/Mutator.gd",
-            "icon_url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/main/Sigils/SigilArt/Mutator.png"
-        }
     }
 }
