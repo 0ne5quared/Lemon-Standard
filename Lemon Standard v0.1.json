@@ -451,7 +451,7 @@
             "banned": true
         },
         {
-            "name": "Depleted Mox",
+            "name": "Rabbit Pelt",
             "attack": 0,
             "health": 1,
             "nosac": true
@@ -1379,8 +1379,14 @@
             "sigils": ["Great Mox", "Mutator"],
             "attack": 0,
             "health": 1,
-            "evolution": "Rabbit Pelt",
+            "evolution": "Depleted Mox",
             "nosac": true,
+        },
+		{
+            "name": "Depleted Mox",
+            "attack": 0,
+            "health": 1,
+            "nosac": true
         },
         {
             "name": "Muscle Mage",
