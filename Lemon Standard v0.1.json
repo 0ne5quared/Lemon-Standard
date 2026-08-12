@@ -1520,7 +1520,7 @@
             "name": "Winged Guardian",
             "mox_cost": ["Orange", "Blue"],
             "attack": 1,
-            "health": 3,
+            "health": 5,
             "sigils": ["Airborne", "Mighty Leap"],
             "description": "Custom card by Flare"
         },
@@ -1528,7 +1528,7 @@
             "name": "Swift Sage",
             "mox_cost": ["Green", "Blue"],
             "attack": 1,
-            "health": 2,
+            "health": 3,
             "sigils": ["Sharp Quills", "Sprinter"],
             "description": "Custom card by Flare"
         },
