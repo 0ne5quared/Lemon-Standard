@@ -90,7 +90,7 @@
         },
         {
             "name": "Bloodhound",
-            "sigils": ["Guardian"],
+            "sigils": ["Guardian", "Blood Lust"],
             "attack": 2,
             "health": 3,
             "blood_cost": 2
@@ -291,11 +291,12 @@
             "attack": 1,
             "health": 1,
             "blood_cost": 1,
+			"bone_cost": 1,
             "rare": true
         },
         {
             "name": "Mole",
-            "sigils": ["Burrower"],
+            "sigils": ["Burrower", "Bone Digger"],
             "attack": 0,
             "health": 4,
             "blood_cost": 1
@@ -1602,7 +1603,7 @@
             "name": "Conductive Vessel",
             "attack": 0,
             "health": 2,
-            "energy_cost": 0,
+            "energy_cost": 1,
             "nosac": true,
             "conduit": true,
             "banned": true
