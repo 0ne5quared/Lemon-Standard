@@ -97,7 +97,7 @@
         },
         {
             "name": "Bullfrog",
-            "sigils": ["Mighty Leap"],
+            "sigils": ["Mighty Leap", "Sentry"],
             "attack": 1,
             "health": 3,
             "blood_cost": 1
@@ -115,7 +115,7 @@
             "name": "Cat",
             "sigils": ["Many Lives"],
             "attack": 0,
-            "health": 1,
+            "health": 2,
             "blood_cost": 1
         },
         {
@@ -227,13 +227,13 @@
             "name": "Raven Egg",
             "sigils": ["Fledgling"],
             "attack": 0,
-            "health": 2,
+            "health": 4,
             "evolution": "Raven",
             "blood_cost": 1
         },
         {
             "name": "Kingfisher",
-            "sigils": ["Airborne", "Waterborne"],
+            "sigils": ["Airborne", "Waterborne", "Noble Sacrifice"],
             "attack": 1,
             "health": 1,
             "blood_cost": 1
@@ -363,7 +363,7 @@
             "attack": 4,
             "health": 2,
             "blood_cost": 3,
-            "sigils": ["Waterborne"],
+            "sigils": ["Waterborne", "Blood Lust"],
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
         {
@@ -408,7 +408,7 @@
             "name": "Raven",
             "sigils": ["Airborne"],
             "attack": 2,
-            "health": 3,
+            "health": 4,
             "blood_cost": 2
         },
         {
@@ -565,8 +565,9 @@
         {
             "name": "Stoat",
             "attack": 1,
-            "health": 3,
+            "health": 4,
             "blood_cost": 1,
+			"conduit": true,
             "description": "Note: Health was increased to 3 to make it better than Bullfrog in at least one way. Bears a unique ability from Act 1."
         },
         {
@@ -742,7 +743,7 @@
             "name": "GR1ZZ",
             "sigils": ["Transformer"],
             "attack": 0,
-            "health": 4,
+            "health": 6,
             "energy_cost": 4,
             "evolution": "GR1ZZ (beast)"
         },
@@ -750,7 +751,7 @@
             "name": "GR1ZZ (beast)",
             "sigils": ["Transformer"],
             "attack": 4,
-            "health": 4,
+            "health": 6,
             "energy_cost": 4,
             "evolution": "GR1ZZ",
             "banned": true
@@ -759,8 +760,8 @@
             "name": "Insectodrone",
             "sigils": ["Airborne"],
             "attack": 1,
-            "health": 2,
-            "energy_cost": 3
+            "health": 1,
+            "energy_cost": 2
         },
         {
             "name": "Junkbot",
@@ -774,7 +775,7 @@
             "name": "L33pB0t",
             "sigils": ["Mighty Leap"],
             "attack": 1,
-            "health": 2,
+            "health": 3,
             "energy_cost": 3
         },
         {
@@ -804,7 +805,7 @@
             "name": "Null Conduit",
             "attack": 0,
             "health": 1,
-            "energy_cost": 1,
+            "energy_cost": 0,
             "conduit": true
         },
         {
@@ -822,7 +823,7 @@
             "attack": 2,
             "health": 2,
             "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-            "energy_cost": 4
+            "energy_cost": 3
         },
         {
             "name": "Scrap Golem",
@@ -942,7 +943,7 @@
             "name": "Steambot",
             "attack": 3,
             "health": 2,
-            "energy_cost": 6,
+            "energy_cost": 5,
             "description": "Note: This card's attack was increased to make it worth 6 energy."
         },
         {
@@ -1406,8 +1407,8 @@
         {
             "name": "Practice Wizard",
             "attack": 0,
-            "health": 3,
-            "sigils": ["Made of Stone"],
+            "health": 4,
+            "sigils": ["Made of Stone", "Burrower"],
             "mox_cost": ["Orange"]
         },
         {
@@ -1437,7 +1438,7 @@
             "sigils": ["Sentry", "Orange Mox"],
             "attack": 0,
             "health": 2,
-            "mox_cost": ["Orange"],
+			"nosac": true,
             "description": "Custom card by FishGuy101"
         },
         {
@@ -1445,7 +1446,7 @@
             "sigils": ["Sharp Quills", "Blue Mox"],
             "attack": 0,
             "health": 2,
-            "mox_cost": ["Blue"],
+			"nosac": true,
             "description": "Custom Card by BishopAdams"
         },
         {
@@ -1453,7 +1454,7 @@
             "sigils": ["Stinky", "Green Mox"],
             "attack": 0,
             "health": 2,
-            "mox_cost": ["Green"],
+			"nosac": true,
             "description": "Custom Card by BishopAdams"
         },
         {
@@ -1500,9 +1501,8 @@
         },
         {
             "name": "Holo Mox",
-            "mox_cost": ["Orange"],
             "sigils": ["Armored"],
-            "energy_cost": 2,
+            "energy_cost": 1,
             "attack": 0,
             "health": 1,
             "description": "Custom card by FishGuy101"
