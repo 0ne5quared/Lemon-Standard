@@ -1077,7 +1077,7 @@
             "sigils": ["Waterborne", "Touch of Death"],
             "attack": 1,
             "health": 1,
-            "bone_cost": 4,
+            "bone_cost": 3,
             "rare": true
         },
         {
