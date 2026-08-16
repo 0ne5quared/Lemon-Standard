@@ -402,7 +402,7 @@
             "name": "Rattler",
             "attack": 3,
             "health": 1,
-            "bone_cost": 6,
+            "bone_cost": 5,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
         {
