@@ -824,7 +824,7 @@
         },
         {
             "name": "Rustbucket",
-            "sigils": ["Depleting, Depleting"],
+            "sigils": ["Depleting", "Depleting"],
             "attack": 2,
             "health": 5,
             "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
