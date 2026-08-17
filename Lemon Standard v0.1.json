@@ -1601,7 +1601,7 @@
             "sigils": ["Sharp Quills", "Bone King"],
             "attack": 0,
             "health": 2,
-            "energy_cost": 2,
+            "energy_cost": 3,
             "nosac": true,
             "banned": true
         },
