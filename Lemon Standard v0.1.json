@@ -613,31 +613,31 @@
         },
         {
             "name": "Worker Ant",
-            "attack": 0,
-            "health": 2,
+            "attack": -1,
+            "health": 3,
             "atkspecial": "ant",
-            "bone_cost": 5
+            "blood_cost": 1
         },
         {
             "name": "Ant Queen",
-            "attack": 0,
-            "health": 5,
+            "attack": -1,
+            "health": 4,
             "atkspecial": "ant",
-            "blood_cost": 3,
+            "blood_cost": 2,
             "sigils": ["Ant Spawner"]
         },
         {
             "name": "Flying Ant",
-            "attack": 0,
+            "attack": -1,
             "health": 1,
             "atkspecial": "ant",
-            "bone_cost": 5,
+            "blood_cost": 1,
             "sigils": ["Airborne"]
         },
         {
             "name": "Bullet Ant",
-            "attack": 0,
-            "health": 3,
+            "attack": -1,
+            "health": 5,
             "atkspecial": "ant",
             "blood_cost": 2,
             "sigils": ["Touch of Death"],
