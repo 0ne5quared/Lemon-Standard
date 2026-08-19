@@ -637,10 +637,10 @@
         {
             "name": "Bullet Ant",
             "attack": -1,
-            "health": 5,
+            "health": 3,
             "atkspecial": "ant",
             "blood_cost": 2,
-            "sigils": ["Touch of Death"],
+            "sigils": ["Double Strike"],
             "description": "Custom card by FishGuy101.\nCard art by Mark"
         },
         {
