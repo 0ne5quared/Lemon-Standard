@@ -1641,14 +1641,6 @@
             "description": "Card and art by Mark.\nThe most broken card, hopefully no longer."
         },
         {
-            "name": "Biomech",
-            "attack": 1,
-            "health": 1,
-            "energy_cost": 2,
-            "sigils": ["Depleting", "Fecundity"],
-            "banned": true
-        },
-        {
             "name": "Shambling Cairn",
             "attack": 0,
             "health": 1,
@@ -1920,11 +1912,6 @@
         "The Acid Squirrel": {
             "type": "single",
             "card": "Acid Squirrel",
-            "count": 1
-        },
-        "The Biomech": {
-            "type": "single",
-            "card": "Biomech",
             "count": 1
         },
         "10 Shambling Cairns": {
