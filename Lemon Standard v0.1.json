@@ -1642,10 +1642,11 @@
         },
         {
             "name": "Biomech",
-            "attack": 0,
+            "attack": 1,
             "health": 1,
-            "sigils": ["Depleting", "Fecundity (Kaycee)"],
-            "banned": true,
+            "energy_cost": 2,
+            "sigils": ["Depleting", "Fecundity"],
+            "banned": true
         },
         {
             "name": "Shambling Cairn",
@@ -1921,10 +1922,10 @@
             "card": "Acid Squirrel",
             "count": 1
         },
-        "10 Biomechs": {
+        "The Biomech": {
             "type": "single",
             "card": "Biomech",
-            "count": 10
+            "count": 1
         },
         "10 Shambling Cairns": {
             "type": "single",
