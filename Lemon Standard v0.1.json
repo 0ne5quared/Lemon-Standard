@@ -1637,7 +1637,15 @@
             "health": 1,
             "sigils": ["Reconstitute", "Boneless"],
             "banned": true,
+            "rare": true,
             "description": "Card and art by Mark.\nThe most broken card, hopefully no longer."
+        },
+        {
+            "name": "Biomech",
+            "attack": 0,
+            "health": 1,
+            "sigils": ["Depleting", "Fecundity (Kaycee)"],
+            "banned": true,
         },
         {
             "name": "Shambling Cairn",
@@ -1912,6 +1920,11 @@
             "type": "single",
             "card": "Acid Squirrel",
             "count": 1
+        },
+        "10 Biomechs": {
+            "type": "single",
+            "card": "Biomech",
+            "count": 10
         },
         "10 Shambling Cairns": {
             "type": "single",
