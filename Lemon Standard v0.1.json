@@ -1643,8 +1643,9 @@
         {
             "name": "Biomech",
             "attack": 0,
-            "health": 1,
-            "sigils": ["Battery Bearer","Depleting", "Fecundity (Kaycee)"],
+            "health": 2,
+            "energy_cost": 1,
+            "sigils": ["Depleting", "Fecundity (Kaycee)"],
             "banned": true
         },
         {
