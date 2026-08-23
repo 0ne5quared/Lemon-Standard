@@ -1300,7 +1300,7 @@
             "name": "Junior Sage",
             "sigils": ["Green Mox"],
             "attack": 1,
-            "health": 2,
+            "health": 1,
             "mox_cost": ["Green"]
         },
         {
