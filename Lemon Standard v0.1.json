@@ -949,7 +949,7 @@
             "sigils": ["Hefty"],
             "attack": 3,
             "health": 2,
-            "energy_cost": 6,
+            "energy_cost": 5,
             "description": "Note: This card's attack was increased to make it worth 6 energy."
         },
         {
@@ -1136,24 +1136,24 @@
             "name": "Necromancer",
             "sigils": ["Double Death"],
             "attack": 1,
-            "health": 3,
-            "bone_cost": 4,
+            "health": 2,
+            "bone_cost": 3,
             "rare": true,
             "description": "This was the most annoying card to program."
         },
         {
             "name": "Revenant",
-            "sigils": ["Brittle"],
+            "sigils": ["Brittle", "Touch of Death"],
             "attack": 3,
             "health": 1,
             "bone_cost": 3
         },
         {
             "name": "Sarcophagus",
-            "sigils": ["Fledgling"],
+            "sigils": ["Fledgling", "Reconstitute"],
             "attack": 0,
             "health": 3,
-            "bone_cost": 4,
+            "bone_cost": 5,
             "evolution": "Mummy Lord"
         },
         {
@@ -1176,7 +1176,6 @@
             "sigils": ["Disentomb (Corpses)"],
             "attack": 0,
             "health": 2,
-            "bone_cost": 1,
             "rare": true,
             "active": true,
             "description": "Note: Withered corpses have the Boneless sigil and will not drop bones.This change was made to prevent multiple infinite combos involving Tomb Robber."
@@ -1191,9 +1190,9 @@
         },
         {
             "name": "Floating Eye",
-            "attack": 2,
+            "attack": 1,
             "health": 1,
-            "bone_cost": 5,
+            "bone_cost": 3,
             "sigils": ["Airborne", "Sentry"],
             "description": "Custom card by SYNTHIA_2000"
         },
@@ -1306,9 +1305,9 @@
         },
         {
             "name": "Mage Knight",
-            "sigils": ["Gem Dependant", "Armored"],
+            "sigils": ["Gem Dependant", "Touch of Death"],
             "attack": 1,
-            "health": 3,
+            "health": 1,
             "mox_cost": ["Orange"]
         },
         {
@@ -1442,7 +1441,7 @@
             "name": "Mox Tower",
             "sigils": ["Sentry", "Orange Mox"],
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "description": "Custom card by FishGuy101",
             "nosac": true
         },
@@ -1450,7 +1449,7 @@
             "name": "Mox Bunker",
             "sigils": ["Sharp Quills", "Blue Mox"],
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "description": "Custom Card by BishopAdams",
             "nosac": true
         },
@@ -1458,7 +1457,7 @@
             "name": "Mox Encampment",
             "sigils": ["Stinky", "Green Mox"],
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "description": "Custom Card by BishopAdams",
             "nosac": true
         },
@@ -1506,8 +1505,8 @@
         },
         {
             "name": "Holo Mox",
-            "energy_cost": 3,
-            "sigils": ["Repulsive", "Gem Dependant"],
+            "mox_cost": ["Orange"],
+            "sigils": ["Battery Bearer"],
             "attack": 1,
             "health": 1,
             "description": "Custom card by FishGuy101"
