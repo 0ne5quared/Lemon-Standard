@@ -99,7 +99,7 @@
             "name": "Bullfrog",
             "sigils": ["Mighty Leap", "Sentry"],
             "attack": 1,
-            "health": 2,
+            "health": 3,
             "blood_cost": 1
         },
         {
@@ -139,6 +139,7 @@
             "attack": 1,
             "health": 2,
             "bone_cost": 4
+            "banned": true
         },
         {
             "name": "The Daus",
@@ -349,7 +350,7 @@
         {
             "name": "Skunk",
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "sigils": ["Stinky"],
             "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
         },
@@ -473,7 +474,7 @@
             "health": 3,
             "nosac": true,
             "rare": true,
-            "banned": true
+            "banned": false
         },
         {
             "name": "Pelt Lice",
@@ -774,7 +775,7 @@
             "attack": 2,
             "health": 1,
             "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-            "energy_cost": 0
+            "energy_cost": 1
         },
         {
             "name": "L33pB0t",
@@ -1143,7 +1144,7 @@
         },
         {
             "name": "Revenant",
-            "sigils": ["Brittle", "Touch of Death"],
+            "sigils": ["Brittle"],
             "attack": 3,
             "health": 1,
             "bone_cost": 3
