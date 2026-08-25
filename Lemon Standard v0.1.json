@@ -347,11 +347,11 @@
             "banned": true
         },
         {
-            "name": "Skunk",
-            "attack": 0,
-            "health": 1,
+            "name": "Adder",
             "sigils": ["Stinky"],
-            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
+            "attack": 1,
+            "health": 2,
+            "blood_cost": 1
         },
         {
             "name": "Coyote",
@@ -721,7 +721,7 @@
         },
         {
             "name": "Explode Bot",
-            "sigils": ["Detonator (5)"],
+            "sigils": ["Detonator (5)", "Boneless"],
             "attack": 1,
             "health": 1,
             "energy_cost": 2,
