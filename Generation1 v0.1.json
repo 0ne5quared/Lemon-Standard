@@ -39,11 +39,28 @@
         {
             "name": "Bulbasaur",
             "sigils": ["Evolver"],
+            "evolution": "Ivysaur",
             "blood_cost": 1,
             "attack": 1,
             "health": 3,
             "description": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy."
         },
+        {
+            "name": "Ivysaur",
+            "sigils": ["Evolver"],
+            "evolution": "Venusaur",
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 4,
+            "description": "The bulb on its back grows by drawing energy. It gives off an aroma when it is ready to bloom."
+        },
+        {
+            "name": "Venusaur",
+            "blood_cost": 3,
+            "attack": 4,
+            "health": 6,
+            "description": "The flower on its back catches the sun’s rays. The sunlight is then absorbed and used for energy."
+        }
     ],
     "sigils": {
         "Acupuncture": "Pay 3 bones: Choose a creature to gain the Stitched sigil and give this card Armor.",
