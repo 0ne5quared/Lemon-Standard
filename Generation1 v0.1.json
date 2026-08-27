@@ -3,7 +3,7 @@
     "hammers_per_turn": 0,
     "ant_limit": 4,
     "deck_size_min": 6,
-    "max_commons_main": 0,
+    "max_commons_main": 10,
     "max_commons_side": 10,
     "num_candles": 2,
     "variable_attack_nerf": false,
@@ -11,7 +11,7 @@
     "opt_actives": false,
     "enable_backrow": false,
     "portrait": "portraits/Geck",
-    "description": "Pokemon",
+    "description": "your pokeymans have to DIE to evolve",
     "cards": [
         {
             "name": "MissingNo.",
@@ -31,8 +31,15 @@
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
         {
+            "name": "Rare Candy",
+            "attack": 0,
+            "health": 1,
+            "rare": true,
+            "description": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy."
+        },
+        {
             "name": "Bulbasaur",
-            "sigils": ["Evolve"],
+            "sigils": ["Evolver"],
             "attack": 1,
             "health": 3,
             "rare": true,
@@ -80,6 +87,7 @@
     	"Energy Gun (Eternal)": "Pay energy to damage the opposing creature until it dies or you run out.",
     	"Enlarge": "Pay 2 bones to increase the power and health of a card bearing this sigil by 1.",
     	"Enlarge (3)": "Pay 3 bones to increase the power and health of a card bearing this sigil by 1.",
+        "Evolver": "A card bearing this sigil will grow into a more powerful form and return to your deck when it perishes.",
     	"Fecundity": "When a card bearing this sigil is played, a copy of it is created in your hand.",
     	"Fecundity (Kaycee)": "When a card bearing this sigil is played, a copy of it is created in your hand without this sigil.",
     	"Fledgling": "A card bearing this sigil will grow into a more powerful form after 1 turn on the board.",
@@ -224,19 +232,20 @@
         "Omni Strike",
         "Enlarge (3)",
         "Skeleton Crew (Yarr)",
-        "Thick"
+        "Thick",
+        "Evolver"
     ],
     "side_decks": {
-        "10 Squirrels": {
+        "10 Rare Candies": {
             "type": "single",
-            "card": "Squirrel",
+            "card": "Rare Candy",
             "count": 10
         }
     },
     "custom_sigils": {
-        "Chungus": {
-            "description": "Big",
-            "author": "107zxz",
+        "Evolver": {
+            "description": "A card bearing this sigil will grow into a more powerful form and return to your deck when it perishes.",
+            "author": "0ne5quared",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-scripts/main/Chungus.gd",
             "icon_url": "https://raw.githubusercontent.com/107zxz/inscr-onln/main/gfx/sigils/Airborne.png"
         }
