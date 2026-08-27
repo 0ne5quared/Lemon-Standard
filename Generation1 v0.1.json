@@ -14,9 +14,9 @@
     "description": "your pokeymans have to DIE to evolve",
     "cards": [
         {
-            "name": "MissingNo.",
+            "name": "Starvation",
             "sigils": ["Detonator"],
-            "attack": 1,
+            "attack": 0,
             "health": 1,
             "banned": true
         },
@@ -38,6 +38,7 @@
         },
         {
             "name": "Bulbasaur",
+            "pixport_url": "https://img.pokemondb.net/sprites/yellow/normal/bulbasaur.png",
             "sigils": ["Evolver"],
             "evolution": "Ivysaur",
             "blood_cost": 1,
@@ -47,6 +48,7 @@
         },
         {
             "name": "Ivysaur",
+            "pixport_url": "https://img.pokemondb.net/sprites/yellow/normal/ivysaur.png",
             "sigils": ["Evolver"],
             "evolution": "Venusaur",
             "blood_cost": 2,
@@ -56,6 +58,7 @@
         },
         {
             "name": "Venusaur",
+            "pixport_url": "https://img.pokemondb.net/sprites/yellow/normal/venusaur.png",
             "blood_cost": 3,
             "attack": 4,
             "health": 6,
