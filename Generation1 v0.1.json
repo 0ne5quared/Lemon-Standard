@@ -39,6 +39,7 @@
         {
             "name": "Bulbasaur",
             "sigils": ["Evolver"],
+            "blood_cost": 1,
             "attack": 1,
             "health": 3,
             "description": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy."
@@ -244,7 +245,7 @@
         "Evolver": {
             "description": "A card bearing this sigil will grow into a more powerful form and return to your deck when it perishes.",
             "author": "0ne5quared",
-            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-scripts/main/Chungus.gd",
+            "url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/refs/heads/main/Sigils/SigilScript/Evolver.gd",
             "icon_url": "https://raw.githubusercontent.com/107zxz/inscr-onln/main/gfx/sigils/Airborne.png"
         }
     }
