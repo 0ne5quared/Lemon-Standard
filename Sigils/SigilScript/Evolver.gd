@@ -6,6 +6,6 @@ func handle_event(event: String, params: Array):
 	# attached_card_summoned represents the card bearing the sigil being summoned
 	if event == "card_perished" and params[0] == card and isFriendly:
 		print("Unkillable triggered!")
-		var old_data = card.from_data(CardInfo.from_name(card.card_data["evolution"]))
 		# Draw the modified card copy
-		fightManager.draw_card(old_data)
+		fightManager.draw_card(CardInfo.from_name(card.card_data["evolution"]))
+)
