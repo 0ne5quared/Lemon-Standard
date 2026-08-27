@@ -8,10 +8,7 @@ func handle_event(event: String, params: Array):
 		
 		print("Unkillable triggered!")
 		
-		var old_data = card.card_data.duplicate()
-		old_data.sigils = old_data.sigils.duplicate()
-
-		old_data.sigils.erase("Unkillable (Eternal)")
+		var old_data = card.from_data(CardInfo.from_name(card.card_data["evolution"]))
 
 		# Draw the modified card copy
 		fightManager.draw_card(old_data)
