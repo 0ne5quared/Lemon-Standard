@@ -34,7 +34,6 @@
             "attack": 0,
             "health": 1,
             "rare": true,
-            "description": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy."
         },
         {
             "name": "Bulbasaur",
