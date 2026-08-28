@@ -105,7 +105,7 @@
     	"Energy Gun (Eternal)": "Pay energy to damage the opposing creature until it dies or you run out.",
     	"Enlarge": "Pay 2 bones to increase the power and health of a card bearing this sigil by 1.",
     	"Enlarge (3)": "Pay 3 bones to increase the power and health of a card bearing this sigil by 1.",
-        "Evolver": "A card bearing this sigil will grow into a more powerful form and return to your deck when it perishes.",
+        "Evolver": "A card bearing this sigil will grow into a more powerful form and return to your hand when it is sacrificed.",
     	"Fecundity": "When a card bearing this sigil is played, a copy of it is created in your hand.",
     	"Fecundity (Kaycee)": "When a card bearing this sigil is played, a copy of it is created in your hand without this sigil.",
     	"Fledgling": "A card bearing this sigil will grow into a more powerful form after 1 turn on the board.",
@@ -262,7 +262,7 @@
     },
     "custom_sigils": {
         "Evolver": {
-            "description": "A card bearing this sigil will grow into a more powerful form and return to your deck when it perishes.",
+            "description": "A card bearing this sigil will grow into a more powerful form and return to your hand when it is sacrificed.",
             "author": "0ne5quared",
             "url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/refs/heads/main/Sigils/SigilScript/Evolver.gd",
             "icon_url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/refs/heads/main/Sigils/SigilArt/Evolver.png"
