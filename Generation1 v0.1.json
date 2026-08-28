@@ -22,7 +22,7 @@
         },
         {
             "name": "Greater Smoke",
-            "sigils": ["Bone King", "Touch of Death"],
+            "sigils": ["Bone King"],
             "attack": 1,
             "health": 3,
             "banned": true,
