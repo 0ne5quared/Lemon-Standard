@@ -1,6 +1,6 @@
 {
     "ruleset": "Generation1 v0.1.",
-    "hammers_per_turn": 0,
+    "hammers_per_turn": 99,
     "ant_limit": 4,
     "deck_size_min": 6,
     "max_commons_main": 10,
@@ -22,7 +22,7 @@
         },
         {
             "name": "Greater Smoke",
-            "sigils": ["Bone King"],
+            "sigils": ["Bone King", "Touch of Death"],
             "attack": 1,
             "health": 3,
             "banned": true,
