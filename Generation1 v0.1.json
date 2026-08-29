@@ -67,12 +67,34 @@
         },
         {
             "name": "Charmander",
-            "pixport_url": "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)#/media/File:Spr_1y_004.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c5/Spr_1y_004.png",
+            "sigils": ["Evolver"],
+            "evolution": "Charmeleon",
             "blood_cost": 1,
             "attack": 2,
             "health": 1,
             "description": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places."
-        }
+        },
+        {
+            "name": "Charmeleon",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/89/Spr_1y_005.png",
+            "sigils": ["Evolver"],
+            "evolution": "Charizard",
+            "blood_cost": 2,
+            "attack": 3,
+            "health": 2,
+            "description": "Tough fights could excite this POKéMON. When excited, it may blow out bluish-white flames."
+        },
+        {
+            "name": "Charizard",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/89/Spr_1y_005.png",
+            "sigils": ["Airborne"],
+            "blood_cost": 3,
+            "attack": 5,
+            "health": 3,
+            "description": "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely."
+        },
+        
         
     ],
     "sigils": {
