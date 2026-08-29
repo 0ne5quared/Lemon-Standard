@@ -247,7 +247,7 @@
         {
             "name": "Rattata",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/1/1b/Spr_1y_019_SGB.png",
-            "sigils": ["evolver"],
+            "sigils": ["Evolver"],
             "evolution": "Raticate",
             "blood_cost": 1,
             "attack": 0,
@@ -278,10 +278,10 @@
         {
             "name": "Fearow",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/a/af/Spr_1y_022_SGB.png",
-            "sigils": ["Marrow Sucker", "Airborne"],
+            "sigils": ["Airborne"],
             "bone_cost": 7,
             "attack": 3,
-            "health": 4,
+            "health": 3,
             "description": ""
         },
         {
