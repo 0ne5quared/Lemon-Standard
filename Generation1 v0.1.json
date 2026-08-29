@@ -11,7 +11,7 @@
     "opt_actives": false,
     "enable_backrow": false,
     "portrait": "portraits/Geck",
-    "description": "your pokeymans have to DIE to evolve!\nSprites stolen from Bulbapedia/PokemonYellow",
+    "description": "your pokeymans have to DIE to evolve!\nSprites: Bulbapedia/PokemonYellow",
     "cards": [
         {
             "name": "MissingNo.",
