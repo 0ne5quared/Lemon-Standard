@@ -307,8 +307,8 @@
         {
             "name": "Pikachu",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/5/57/Spr_1y_025_SGB.png",
-            "conduit": true,
             "sigils": ["Evolver", "Attack Conduit"],
+            "conduit": true,
             "evolution": "Raichu",
             "blood_cost": 1,
             "attack": 0,
@@ -320,6 +320,7 @@
             "name": "Raichu",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ed/Spr_1y_026_SGB.png",
             "sigils": ["Attack Conduit"],
+            "conduit": true,
             "mox_cost": ["Green"],
             "attack": 1,
             "health": 3,
