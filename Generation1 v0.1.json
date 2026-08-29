@@ -3,7 +3,7 @@
     "hammers_per_turn": 0,
     "ant_limit": 4,
     "deck_size_min": 6,
-    "max_commons_main": 0,
+    "max_commons_main": 10,
     "max_commons_side": 10,
     "num_candles": 2,
     "variable_attack_nerf": false,
@@ -132,7 +132,7 @@
             "blood_cost": 1,
             "attack": 1,
             "health": 1,
-            "description": ""
+            "description": "",
             "rare": true
         },
         {
@@ -160,24 +160,26 @@
             "sigils": ["Evolver"],
             "evolution": "Metapod",
             "blood_cost": 1,
-            "attack": 1,
+            "attack": 0,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Metapod",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/0/00/Spr_1y_011_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Armored"],
             "evolution": "Butterfree",
             "blood_cost": 1,
-            "attack": 1,
+            "attack": 0,
             "health": 1,
             "description": ""
         },
         {
             "name": "Butterfree",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/4/4a/Spr_1y_012_SGB.png",
-            "blood_cost": 1,
+            "sigils": ["Handy"],
+            "blood_cost": 3,
             "attack": 1,
             "health": 1,
             "description": ""
@@ -185,29 +187,31 @@
         {
             "name": "Weedle",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/8/87/Spr_1y_013_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Touch of Death", "Sharp Quills"],
             "evolution": "Kakuna",
-            "blood_cost": 1,
-            "attack": 1,
+            "blood_cost": 0,
+            "attack": 0,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Kakuna",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/6/6e/Spr_1y_014_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Armored"],
             "evolution": "Beedrill",
             "blood_cost": 1,
-            "attack": 1,
+            "attack": 0,
             "health": 1,
             "description": ""
         },
         {
             "name": "Beedrill",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/8/87/Spr_1y_015_SGB.png",
-            "blood_cost": 1,
+            "sigils": ["Sniper", "Touch of Death"],
+            "blood_cost": 2,
             "attack": 1,
-            "health": 1,
+            "health": 2,
             "description": ""
         },
         {
