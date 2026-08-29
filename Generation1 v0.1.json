@@ -324,8 +324,7 @@
             "mox_cost": ["Green"],
             "attack": 1,
             "health": 3,
-            "description": "",
-            "rare": true
+            "description": ""
         },
         {
             "name": "Sandshrew",
