@@ -15,7 +15,7 @@
     "cards": [
         {
             "name": "MissingNo.",
-            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/03/Missingno_Y.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/9/98/Missingno_RB.png",
             "sigils": ["Detonator"],
             "attack": 0,
             "health": 1,
@@ -94,6 +94,1298 @@
             "attack": 5,
             "health": 3,
             "description": "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely."
+        },
+        {
+            "name": "Squirtle",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/fa/Spr_1y_007_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Wartortle",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Wartortle",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/8b/Spr_1y_008_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Blastoise",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Blastoise",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/4e/Spr_1y_009_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Caterpie",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f6/Spr_1y_010_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Metapod",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Metapod",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/00/Spr_1y_011_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Butterfree",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Butterfree",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/4a/Spr_1y_012_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Weedle",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/87/Spr_1y_013_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Kakuna",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Kakuna",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/6/6e/Spr_1y_014_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Beedrill",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Beedrill",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/87/Spr_1y_015_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Pidgey",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/0f/Spr_1y_016_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Pidgeotto",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Pidgeotto",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/a4/Spr_1y_017_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Pidgeot",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Pidgeot",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/7c/Spr_1y_018_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Rattata",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/1b/Spr_1y_019_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Raticate",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Raticate",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/19/Spr_1y_020_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Spearow",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f5/Spr_1y_021_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Fearow",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Fearow",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/af/Spr_1y_022_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Ekans",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/43/Spr_1y_023_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Arbok",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Arbok",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/a2/Spr_1y_024_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Pikachu",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/57/Spr_1y_025_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Raichu",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Raichu",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ed/Spr_1y_026_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Sandshrew",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/05/Spr_1y_027_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Sandslash",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Sandslash",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/af/Spr_1y_028_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "NidoranF",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5e/Spr_1y_029_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Nidorina",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Nidorina",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/49/Spr_1y_030_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Nidoqueen",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Nidoqueen",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/fb/Spr_1y_031_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "NidoranM",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/fc/Spr_1y_032_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Nidorino",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Nidorino",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f9/Spr_1y_033_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Nidoking",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Nidoking",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/7b/Spr_1y_034_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Clefairy",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/ad/Spr_1y_035_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Clefable",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Clefable",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/2/23/Spr_1y_036_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Vulpix",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/d/df/Spr_1y_037_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Ninetales",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Ninetales",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ea/Spr_1y_038_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Jigglypuff",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/2/24/Spr_1y_039_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Wigglytuff",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Wigglytuff",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5d/Spr_1y_040_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Zubat",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/b/bd/Spr_1y_041_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Golbat",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Golbat",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/0d/Spr_1y_042_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Oddish",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/57/Spr_1y_043_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Gloom",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Gloom",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/09/Spr_1y_044_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Vileplume",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Vileplume",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/3/38/Spr_1y_045_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Paras",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c4/Spr_1y_046_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Parasect",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Parasect",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/3/3e/Spr_1y_047_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Venonat",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/a1/Spr_1y_048_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Venomoth",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Venomoth",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/9/9e/Spr_1y_049_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Diglett",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/03/Spr_1y_050_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Dugtrio",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Dugtrio",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/e1/Spr_1y_051_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Meowth",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/07/Spr_1y_052_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Persian",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Persian",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/9/9e/Spr_1y_053_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Psyduck",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/b/b2/Spr_1y_054_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Golduck",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Golduck",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/19/Spr_1y_055_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Mankey",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5a/Spr_1y_056_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Primeape",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Primeape",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/13/Spr_1y_057_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Growlithe",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/71/Spr_1y_058_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Arcanine",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Arcanine",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/2/2e/Spr_1y_059_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Poliwag",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/3/35/Spr_1y_060_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Poliwhirl",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Poliwhirl",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5b/Spr_1y_061_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Poliwrath",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Poliwrath",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/00/Spr_1y_062_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Abra",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f6/Spr_1y_063_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Kadabra",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Kadabra",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/2/23/Spr_1y_064_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Alakazam",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Alakazam",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/d/dc/Spr_1y_065_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Machop",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/7c/Spr_1y_066_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Machoke",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Machoke",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/45/Spr_1y_067_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Machamp",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Machamp",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/af/Spr_1y_068_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Bellsprout",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/75/Spr_1y_069_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Weepinbell",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Weepinbell",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ee/Spr_1y_070_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Victreebel",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Victreebel",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/4e/Spr_1y_071_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Tentacool",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/ad/Spr_1y_072_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Tentacruel",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Tentacruel",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/b/b0/Spr_1y_073_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Geodude",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c0/Spr_1y_074_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Graveler",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Graveler",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/b/b1/Spr_1y_075_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Golem",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Golem",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/4f/Spr_1y_076_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Ponyta",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/1a/Spr_1y_077_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Rapidash",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Rapidash",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f1/Spr_1y_078_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Slowpoke",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/0d/Spr_1y_079_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Slowbro",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Slowbro",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/1d/Spr_1y_080_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Magnemite",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f9/Spr_1y_081_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Magneton",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Magneton",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ed/Spr_1y_082_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Farfetch'd",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/d/dc/Spr_1y_083_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Doduo",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/48/Spr_1y_084_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Dodrio",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Dodrio",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/d/d3/Spr_1y_085_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Seel",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f9/Spr_1y_086_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Dewgong",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Dewgong",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/17/Spr_1y_087_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Grimer",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/42/Spr_1y_088_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Muk",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Muk",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c1/Spr_1y_089_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Shellder",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/eb/Spr_1y_090_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Cloyster",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Cloyster",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/81/Spr_1y_091_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Gastly",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/48/Spr_1y_092_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Haunter",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Haunter",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/6/66/Spr_1y_093_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Gengar",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Gengar",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/07/Spr_1y_094_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Onix",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/d/d5/Spr_1y_095_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Drowzee",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/78/Spr_1y_096_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Hypno",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Hypno",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/82/Spr_1y_097_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Krabby",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c0/Spr_1y_098_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Kingler",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Kingler",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5b/Spr_1y_099_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Voltorb",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/cf/Spr_1y_100_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Electrode",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Electrode",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ea/Spr_1y_101_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Exeggcute",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/16/Spr_1y_102_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Exeggutor",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Exeggutor",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/04/Spr_1y_103_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Cubone",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/a1/Spr_1y_104_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Marowak",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Marowak",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/9/96/Spr_1y_105_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Hitmonlee",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/a6/Spr_1y_106_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Hitmonchan",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/ce/Spr_1y_107_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Lickitung",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/ac/Spr_1y_108_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Koffing",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/6/66/Spr_1y_109_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Weezing",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Weezing",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/cb/Spr_1y_110_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Rhyhorn",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/72/Spr_1y_111_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Rhydon",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Rhydon",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/6/6b/Spr_1y_112_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Chansey",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/9/9d/Spr_1y_113_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Tangela",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/1a/Spr_1y_114_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Kangaskhan",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/51/Spr_1y_115_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Horsea",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/ce/Spr_1y_116_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Seadra",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Seadra",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c3/Spr_1y_117_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Goldeen",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c1/Spr_1y_118_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Seaking",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Seaking",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/54/Spr_1y_119_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Staryu",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/3/3b/Spr_1y_120_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Starmie",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Starmie",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/4a/Spr_1y_121_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Mr. Mime",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/e7/Spr_1y_122_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Scyther",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f9/Spr_1y_123_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Jynx",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/75/Spr_1y_124_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Electabuzz",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/00/Spr_1y_125_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Magmar",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c3/Spr_1y_126_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Pinsir",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/14/Spr_1y_127_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Tauros",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/b/b0/Spr_1y_128_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Magikarp",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/85/Spr_1y_129_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Gyarados",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Gyarados",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ea/Spr_1y_130_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Lapras",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/aa/Spr_1y_131_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Ditto",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/a/a3/Spr_1y_132_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Eevee",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/50/Spr_1y_133_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Vaporeon",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Vaporeon",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/9/9b/Spr_1y_134_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Jolteon",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/7f/Spr_1y_135_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Flareon",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/05/Spr_1y_136_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Porygon",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/3/36/Spr_1y_137_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Omanyte",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/7b/Spr_1y_138_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Omastar",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Omastar",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/9/94/Spr_1y_139_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Kabuto",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/76/Spr_1y_140_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Kabutops",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Kabutops",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/7c/Spr_1y_141_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Aerodactyl",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/6/69/Spr_1y_142_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Snorlax",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/46/Spr_1y_143_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Articuno",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/4/43/Spr_1y_144_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Zapdos",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c6/Spr_1y_145_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Moltres",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/7c/Spr_1y_146_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Dratini",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/84/Spr_1y_147_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Dragonair",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Dragonair",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/e2/Spr_1y_148_SGB.png",
+            "sigils": ["Evolver"],
+            "evolution": "Dragonite",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Dragonite",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/3/33/Spr_1y_149_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Mewtwo",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/9/90/Spr_1y_150_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
+        },
+        {
+            "name": "Mew",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5e/Spr_1y_151_SGB.png",
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 1,
+            "description": ""
         }
     ],
     "sigils": {
