@@ -40,7 +40,7 @@
         },
         {
             "name": "Bulbasaur",
-            "pixport_url": "https://archives.bulbagarden.net/media/upload/b/b6/Spr_1y_001.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/cc/Spr_1y_001_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Ivysaur",
             "blood_cost": 1,
@@ -50,7 +50,7 @@
         },
         {
             "name": "Ivysaur",
-            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ed/Spr_1y_002.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/cb/Spr_1y_002_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Venusaur",
             "blood_cost": 2,
@@ -60,7 +60,7 @@
         },
         {
             "name": "Venusaur",
-            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c0/Spr_1y_003.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/1/1e/Spr_1y_003_SGB.png",
             "blood_cost": 3,
             "attack": 4,
             "health": 6,
@@ -68,7 +68,7 @@
         },
         {
             "name": "Charmander",
-            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c5/Spr_1y_004.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c7/Spr_1y_004_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Charmeleon",
             "blood_cost": 1,
@@ -78,7 +78,7 @@
         },
         {
             "name": "Charmeleon",
-            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/89/Spr_1y_005.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/b/be/Spr_1y_005_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Charizard",
             "blood_cost": 2,
@@ -88,15 +88,13 @@
         },
         {
             "name": "Charizard",
-            "pixport_url": "https://archives.bulbagarden.net/media/upload/8/89/Spr_1y_005.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/74/Spr_1y_006_SGB.png",
             "sigils": ["Airborne"],
             "blood_cost": 3,
             "attack": 5,
             "health": 3,
             "description": "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely."
         }
-        
-        
     ],
     "sigils": {
         "Acupuncture": "Pay 3 bones: Choose a creature to gain the Stitched sigil and give this card Armor.",
