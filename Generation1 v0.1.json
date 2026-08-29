@@ -31,6 +31,7 @@
         },
         {
             "name": "Rare Candy",
+            "pixport_url": "https://github.com/pagefaultgames/pokerogue-assets/blob/beta/images/items/rare_candy.png",
             "attack": 0,
             "health": 1,
             "rare": true,
