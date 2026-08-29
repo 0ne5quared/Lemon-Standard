@@ -46,8 +46,8 @@
             "blood_cost": 1,
             "attack": 1,
             "health": 3,
-            "description": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy."
-            "rare": true,
+            "description": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy.",
+            "rare": true
         },
         {
             "name": "Ivysaur",
@@ -75,8 +75,8 @@
             "blood_cost": 1,
             "attack": 2,
             "health": 1,
-            "description": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places."
-            "rare": true,
+            "description": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places.",
+            "rare": true
         },
         {
             "name": "Charmeleon",
