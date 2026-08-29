@@ -3,7 +3,7 @@
     "hammers_per_turn": 0,
     "ant_limit": 4,
     "deck_size_min": 6,
-    "max_commons_main": 10,
+    "max_commons_main": 0,
     "max_commons_side": 10,
     "num_candles": 2,
     "variable_attack_nerf": false,
@@ -47,6 +47,7 @@
             "attack": 1,
             "health": 3,
             "description": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy."
+            "rare": true,
         },
         {
             "name": "Ivysaur",
@@ -75,6 +76,7 @@
             "attack": 2,
             "health": 1,
             "description": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places."
+            "rare": true,
         },
         {
             "name": "Charmeleon",
