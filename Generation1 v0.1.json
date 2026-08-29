@@ -91,7 +91,7 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/1/1e/Spr_1y_003_SGB.png",
             "blood_cost": 3,
             "attack": 4,
-            "health": 4,
+            "health": 5,
             "description": "The flower on its back catches the sun’s rays. The sunlight is then absorbed and used for energy."
         },
         {
@@ -151,7 +151,7 @@
             "sigils": ["Armored", "Double Strike"],
             "blood_cost": 3,
             "attack": 2,
-            "health": 2,
+            "health": 3,
             "description": ""
         },
         {
@@ -200,7 +200,7 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/6/6e/Spr_1y_014_SGB.png",
             "sigils": ["Evolver", "Armored"],
             "evolution": "Beedrill",
-            "bone_cost": 4,
+            "bone_cost": 2,
             "attack": 0,
             "health": 1,
             "description": ""
@@ -209,7 +209,7 @@
             "name": "Beedrill",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/8/87/Spr_1y_015_SGB.png",
             "sigils": ["Sniper", "Touch of Death"],
-            "blood_cost": 1,
+            "bone_cost": 4,
             "attack": 1,
             "health": 1,
             "description": ""
@@ -220,8 +220,8 @@
             "sigils": ["Evolver", "Airborne"],
             "evolution": "Pidgeotto",
             "blood_cost": 1,
-            "attack": 2,
-            "health": 1,
+            "attack": 1,
+            "health": 3,
             "description": "",
             "rare": true
         },
@@ -232,7 +232,7 @@
             "evolution": "Pidgeot",
             "blood_cost": 2,
             "attack": 3,
-            "health": 1,
+            "health": 2,
             "description": ""
         },
         {
@@ -247,91 +247,103 @@
         {
             "name": "Rattata",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/1/1b/Spr_1y_019_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["evolver"],
             "evolution": "Raticate",
             "blood_cost": 1,
-            "attack": 1,
+            "attack": 0,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Raticate",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/1/19/Spr_1y_020_SGB.png",
+            "sigils": ["Worthy Sacrifice"],
             "blood_cost": 1,
             "attack": 1,
-            "health": 1,
+            "health": 2,
             "description": ""
         },
         {
             "name": "Spearow",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f5/Spr_1y_021_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Airborne"],
             "evolution": "Fearow",
-            "blood_cost": 1,
-            "attack": 1,
+            "bone_cost": 4,
+            "attack": 2,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Fearow",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/a/af/Spr_1y_022_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "sigils": ["Marrow Sucker", "Airborne"],
+            "bone_cost": 7,
+            "attack": 3,
+            "health": 4,
             "description": ""
         },
         {
             "name": "Ekans",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/4/43/Spr_1y_023_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Touch of Death"],
             "evolution": "Arbok",
             "blood_cost": 1,
             "attack": 1,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Arbok",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/a/a2/Spr_1y_024_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "sigils": ["Touch of Death"],
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 3,
             "description": ""
         },
         {
             "name": "Pikachu",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/5/57/Spr_1y_025_SGB.png",
-            "sigils": ["Evolver"],
+            "conduit": true,
+            "sigils": ["Evolver", "Attack Conduit"],
             "evolution": "Raichu",
             "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
-            "description": ""
+            "attack": 0,
+            "health": 3,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Raichu",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ed/Spr_1y_026_SGB.png",
-            "blood_cost": 1,
+            "sigils": ["Attack Conduit"],
+            "mox_cost": ["Green"],
             "attack": 1,
-            "health": 1,
-            "description": ""
+            "health": 3,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Sandshrew",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/0/05/Spr_1y_027_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Burrower"],
             "evolution": "Sandslash",
             "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
-            "description": ""
+            "attack": 0,
+            "health": 4,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Sandslash",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/a/af/Spr_1y_028_SGB.png",
-            "blood_cost": 1,
+            "sigils": ["Sharp Quills", "Burrower"],
+            "blood_cost": 2,
             "attack": 1,
-            "health": 1,
+            "health": 4,
             "description": ""
         },
         {
