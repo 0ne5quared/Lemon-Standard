@@ -39,6 +39,33 @@
             "description": "Sprite stolen from Pokerouge."
         },
         {
+            "name": "Linking Cord",
+            "sigils": ["Blue Mox"],
+            "pixport_url": "https://wiki.pokerogue.net/_media/gameplay:items:linking_cord.png",
+            "attack": 0,
+            "health": 1,
+            "nosac": true,
+            "description": "Sprite stolen from Pokerouge."
+        },
+        {
+            "name": "Evolution Stone",
+            "sigils": ["Green Mox"],
+            "pixport_url": "https://wiki.pokerogue.net/_media/gameplay:items:moon_stone.png",
+            "attack": 0,
+            "health": 1,
+            "nosac": true,
+            "description": "Sprite stolen from Pokerouge."
+        },
+        {
+            "name": "Fossil",
+            "sigils": ["Bone Digger, Sprinter"],
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/7/77/MS_Fossil_I.png",
+            "bone_cost": -1,
+            "attack": 0,
+            "health": 1,
+            "nosac": true,
+        },
+        {
             "name": "Bulbasaur",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/c/cc/Spr_1y_001_SGB.png",
             "sigils": ["Evolver"],
@@ -64,7 +91,7 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/1/1e/Spr_1y_003_SGB.png",
             "blood_cost": 3,
             "attack": 4,
-            "health": 6,
+            "health": 4,
             "description": "The flower on its back catches the sun’s rays. The sunlight is then absorbed and used for energy."
         },
         {
@@ -94,13 +121,13 @@
             "sigils": ["Airborne"],
             "blood_cost": 3,
             "attack": 5,
-            "health": 3,
+            "health": 2,
             "description": "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely."
         },
         {
             "name": "Squirtle",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/f/fa/Spr_1y_007_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Armored"],
             "evolution": "Wartortle",
             "blood_cost": 1,
             "attack": 1,
@@ -110,19 +137,20 @@
         {
             "name": "Wartortle",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/8/8b/Spr_1y_008_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Armored"],
             "evolution": "Blastoise",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 2,
             "description": ""
         },
         {
             "name": "Blastoise",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/4/4e/Spr_1y_009_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "sigils": ["Armored", "Double Strike"],
+            "blood_cost": 3,
+            "attack": 2,
+            "health": 2,
             "description": ""
         },
         {
@@ -1583,6 +1611,16 @@
         "10 Rare Candies": {
             "type": "single",
             "card": "Rare Candy",
+            "count": 10
+        },
+        "10 Fossils": {
+            "type": "single",
+            "card": "Fossil",
+            "count": 10
+        },
+        "Item Draft": {
+            "type": "draft",
+            "cards": ["Rare Candy", "Fossil", "Linking Cord", "Evolution Stone"],
             "count": 10
         }
     },
