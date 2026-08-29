@@ -11,10 +11,11 @@
     "opt_actives": false,
     "enable_backrow": false,
     "portrait": "portraits/Geck",
-    "description": "your pokeymans have to DIE to evolve",
+    "description": "your pokeymans have to DIE to evolve, Sprites stolen from Bulbapedia/PokemonYellow",
     "cards": [
         {
-            "name": "Starvation",
+            "name": "MissingNo.",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/0/03/Missingno_Y.png"
             "sigils": ["Detonator"],
             "attack": 0,
             "health": 1,
@@ -34,11 +35,11 @@
             "pixport_url": "https://raw.githubusercontent.com/pagefaultgames/pokerogue-assets/blob/beta/images/items/rare_candy.png",
             "attack": 0,
             "health": 1,
-            "rare": true,
+            "description": "Sprite stolen from Pokerouge."
         },
         {
             "name": "Bulbasaur",
-            "pixport_url": "https://img.pokemondb.net/sprites/yellow/normal/bulbasaur-color.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/b/b6/Spr_1y_001.png",
             "sigils": ["Evolver"],
             "evolution": "Ivysaur",
             "blood_cost": 1,
@@ -48,7 +49,7 @@
         },
         {
             "name": "Ivysaur",
-            "pixport_url": "https://img.pokemondb.net/sprites/yellow/normal/ivysaur-color.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ed/Spr_1y_002.png",
             "sigils": ["Evolver"],
             "evolution": "Venusaur",
             "blood_cost": 2,
@@ -58,12 +59,21 @@
         },
         {
             "name": "Venusaur",
-            "pixport_url": "https://img.pokemondb.net/sprites/yellow/normal/venusaur-color.png",
+            "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c0/Spr_1y_003.png",
             "blood_cost": 3,
             "attack": 4,
             "health": 6,
             "description": "The flower on its back catches the sun’s rays. The sunlight is then absorbed and used for energy."
+        },
+        {
+            "name": "Venusaur",
+            "pixport_url": "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)#/media/File:Spr_1y_004.png",
+            "blood_cost": 1,
+            "attack": 2,
+            "health": 1,
+            "description": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places."
         }
+        
     ],
     "sigils": {
         "Acupuncture": "Pay 3 bones: Choose a creature to gain the Stitched sigil and give this card Armor.",
