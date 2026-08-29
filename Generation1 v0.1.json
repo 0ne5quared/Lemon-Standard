@@ -38,7 +38,7 @@
         },
         {
             "name": "Bulbasaur",
-            "pixport_url": "https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif",
+            "pixport_url": "https://img.pokemondb.net/sprites/yellow/normal/bulbasaur-color.png",
             "sigils": ["Evolver"],
             "evolution": "Ivysaur",
             "blood_cost": 1,
@@ -48,7 +48,7 @@
         },
         {
             "name": "Ivysaur",
-            "pixport_url": "https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif",
+            "pixport_url": "https://img.pokemondb.net/sprites/yellow/normal/ivysaur-color.png",
             "sigils": ["Evolver"],
             "evolution": "Venusaur",
             "blood_cost": 2,
@@ -58,7 +58,7 @@
         },
         {
             "name": "Venusaur",
-            "pixport_url": "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif",
+            "pixport_url": "https://img.pokemondb.net/sprites/yellow/normal/venusaur-color.png",
             "blood_cost": 3,
             "attack": 4,
             "health": 6,
