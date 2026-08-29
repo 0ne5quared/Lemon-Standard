@@ -6,6 +6,6 @@ func handle_event(event: String, params: Array):
 	if event == "card_perished" and params[0] == card and isFriendly:
 		print("Health")
 		print(str(card.health))
-		if card.health > 0:
+		if card.get_node("CardBody/SacOlay").visible:
 			# Draw the modified card copy
 			fightManager.draw_card(CardInfo.from_name(card.card_data["evolution"]))
