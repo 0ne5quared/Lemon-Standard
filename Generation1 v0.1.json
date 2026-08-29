@@ -33,7 +33,7 @@
         },
         {
             "name": "Rare Candy",
-            "pixport_url": "https://github.com/0ne5quared/Lemon-Standard/blob/main/Sprites/Rare%20Candy.png?raw=true",
+            "pixport_url": "https://raw.githubusercontent.com/0ne5quared/Lemon-Standard/refs/heads/main/Sprites/Rare%20Candy.png",
             "attack": 0,
             "health": 1,
             "description": "Sprite stolen from Pokerouge."
@@ -41,7 +41,7 @@
         {
             "name": "Linking Cord",
             "sigils": ["Blue Mox"],
-            "pixport_url": "https://wiki.pokerogue.net/_media/gameplay:items:linking_cord.png",
+            "pixport_url": "https://raw.githubusercontent.com/pagefaultgames/pokerogue-assets/refs/heads/beta/images/items/linking_cord.png",
             "attack": 0,
             "health": 1,
             "nosac": true,
@@ -50,7 +50,7 @@
         {
             "name": "Evolution Stone",
             "sigils": ["Green Mox"],
-            "pixport_url": "https://wiki.pokerogue.net/_media/gameplay:items:moon_stone.png",
+            "pixport_url": "https://raw.githubusercontent.com/pagefaultgames/pokerogue-assets/refs/heads/beta/images/items/moon_stone.png",
             "attack": 0,
             "health": 1,
             "nosac": true,
@@ -58,7 +58,7 @@
         },
         {
             "name": "Fossil",
-            "sigils": ["Bone Digger, Sprinter"],
+            "sigils": ["Bone Digger", "Sprinter"],
             "pixport_url": "https://archives.bulbagarden.net/media/upload/7/77/MS_Fossil_I.png",
             "bone_cost": -1,
             "attack": 0,
