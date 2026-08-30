@@ -349,29 +349,30 @@
         {
             "name": "NidoranF",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5e/Spr_1y_029_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Warded"],
             "evolution": "Nidorina",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
-            "description": ""
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 4,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Nidorina",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/4/49/Spr_1y_030_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Nidoqueen",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "blood_cost": 2,
+            "attack": 3,
+            "health": 4,
             "description": ""
         },
         {
             "name": "Nidoqueen",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/f/fb/Spr_1y_031_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "mox_cost": ["Green"],
+            "attack": 4,
+            "health": 6,
             "description": ""
         },
         {
@@ -379,27 +380,28 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/f/fc/Spr_1y_032_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Nidorino",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
-            "description": ""
+            "bone_cost": 7,
+            "attack": 2,
+            "health": 4,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Nidorino",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f9/Spr_1y_033_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Nidoking",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "bone_cost": 7,
+            "attack": 4,
+            "health": 4,
             "description": ""
         },
         {
             "name": "Nidoking",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/7/7b/Spr_1y_034_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "mox_cost": ["Green"],
+            "attack": 5,
+            "health": 5,
             "description": ""
         },
         {
@@ -407,17 +409,19 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/a/ad/Spr_1y_035_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Clefable",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
-            "description": ""
+            "blood_cost": 0,
+            "attack": 0,
+            "health": 2,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Clefable",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/2/23/Spr_1y_036_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "sigils": ["Warded"],
+            "mox_cost": ["Green"],
+            "attack": 2,
+            "health": 2,
             "description": ""
         },
         {
@@ -427,79 +431,86 @@
             "evolution": "Ninetales",
             "blood_cost": 1,
             "attack": 1,
-            "health": 1,
-            "description": ""
+            "health": 2,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Ninetales",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/e/ea/Spr_1y_038_SGB.png",
-            "blood_cost": 1,
+            "sigils": ["Omni Strike"],
+            "mox_cost": ["Green"],
             "attack": 1,
-            "health": 1,
+            "health": 2,
             "description": ""
         },
         {
             "name": "Jigglypuff",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/2/24/Spr_1y_039_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Noble Sacrifice"],
             "evolution": "Wigglytuff",
             "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
-            "description": ""
+            "attack": 0,
+            "health": 3,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Wigglytuff",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5d/Spr_1y_040_SGB.png",
-            "blood_cost": 1,
+            "sigils": ["Noble Sacrifice"],
+            "mox_cost": ["Green"],
             "attack": 1,
-            "health": 1,
+            "health": 3,
             "description": ""
         },
         {
             "name": "Zubat",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/b/bd/Spr_1y_041_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Airborne"],
             "evolution": "Golbat",
-            "blood_cost": 1,
+            "bone_cost": 4,
             "attack": 1,
-            "health": 1,
-            "description": ""
+            "health": 3,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Golbat",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/0/0d/Spr_1y_042_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "sigils": ["Airborne"],
+            "blood_cost": 3,
+            "attack": 4,
+            "health": 6,
             "description": ""
         },
         {
             "name": "Oddish",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/5/57/Spr_1y_043_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Noble Sacrifice"],
             "evolution": "Gloom",
-            "blood_cost": 1,
+            "bone_cost": 3,
             "attack": 1,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Gloom",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/0/09/Spr_1y_044_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Vileplume",
-            "blood_cost": 1,
+            "bone_cost": 3,
             "attack": 1,
-            "health": 1,
+            "health": 3,
             "description": ""
         },
         {
             "name": "Vileplume",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/3/38/Spr_1y_045_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "mox_cost": ["Green"],
+            "attack": 2,
+            "health": 4,
             "description": ""
         },
         {
@@ -507,17 +518,18 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/c/c4/Spr_1y_046_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Parasect",
-            "blood_cost": 1,
+            "bone_cost": 2,
             "attack": 1,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Parasect",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/3/3e/Spr_1y_047_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "bone_cost": 6,
+            "attack": 3,
+            "health": 3,
             "description": ""
         },
         {
@@ -525,15 +537,16 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/a/a1/Spr_1y_048_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Venomoth",
-            "blood_cost": 1,
-            "attack": 1,
+            "attack": 0,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Venomoth",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/9/9e/Spr_1y_049_SGB.png",
-            "blood_cost": 1,
+            "sigils": ["Airborne, Touch of Death"],
+            "bone_cost": 3,
             "attack": 1,
             "health": 1,
             "description": ""
@@ -541,16 +554,18 @@
         {
             "name": "Diglett",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/0/03/Spr_1y_050_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Burrower"],
             "evolution": "Dugtrio",
             "blood_cost": 1,
             "attack": 1,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Dugtrio",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/e/e1/Spr_1y_051_SGB.png",
+            "sigils": ["Burrower", "Trifurcated Strike"],
             "blood_cost": 1,
             "attack": 1,
             "health": 1,
@@ -564,12 +579,14 @@
             "blood_cost": 1,
             "attack": 1,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Persian",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/9/9e/Spr_1y_053_SGB.png",
-            "blood_cost": 1,
+            "sigils": ["Many Lives"],
+            "blood_cost": 2,
             "attack": 1,
             "health": 1,
             "description": ""
@@ -579,33 +596,36 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/b/b2/Spr_1y_054_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Golduck",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
-            "description": ""
+            "blood_cost": 2,
+            "attack": 2,
+            "health": 4,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Golduck",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/1/19/Spr_1y_055_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "blood_cost": 2,
+            "attack": 4,
+            "health": 2,
             "description": ""
         },
         {
             "name": "Mankey",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5a/Spr_1y_056_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Double Strike"],
             "evolution": "Primeape",
             "blood_cost": 1,
             "attack": 1,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Primeape",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/1/13/Spr_1y_057_SGB.png",
-            "blood_cost": 1,
+            "sigils": ["Double Strike"],
+            "blood_cost": 2,
             "attack": 1,
             "health": 1,
             "description": ""
@@ -613,47 +633,51 @@
         {
             "name": "Growlithe",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/7/71/Spr_1y_058_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Guardian"],
             "evolution": "Arcanine",
             "blood_cost": 1,
             "attack": 1,
-            "health": 1,
-            "description": ""
+            "health": 4,
+            "description": "",
+            "rare": true
         },
         {
             "name": "Arcanine",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/2/2e/Spr_1y_059_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "sigils": ["Guardian"],
+            "mox_cost": ["Green"],
+            "attack": 2,
+            "health": 4,
             "description": ""
         },
         {
             "name": "Poliwag",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/3/35/Spr_1y_060_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Waterborne"],
             "evolution": "Poliwhirl",
             "blood_cost": 1,
             "attack": 1,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Poliwhirl",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5b/Spr_1y_061_SGB.png",
-            "sigils": ["Evolver"],
+            "sigils": ["Evolver", "Waterborne"],
             "evolution": "Poliwrath",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "blood_cost": 3,
+            "attack": 3,
+            "health": 2,
             "description": ""
         },
         {
             "name": "Poliwrath",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/0/00/Spr_1y_062_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
-            "health": 1,
+            "sigils": ["Waterborne", "Double Strike"],
+            "mox_cost": ["Green"],
+            "attack": 2,
+            "health": 4,
             "description": ""
         },
         {
@@ -661,8 +685,8 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/f/f6/Spr_1y_063_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Kadabra",
-            "blood_cost": 1,
-            "attack": 1,
+            "blood_cost": 2,
+            "attack": 3,
             "health": 1,
             "description": ""
         },
@@ -671,16 +695,16 @@
             "pixport_url": "https://archives.bulbagarden.net/media/upload/2/23/Spr_1y_064_SGB.png",
             "sigils": ["Evolver"],
             "evolution": "Alakazam",
-            "blood_cost": 1,
-            "attack": 1,
+            "blood_cost": 2,
+            "attack": 4,
             "health": 1,
             "description": ""
         },
         {
             "name": "Alakazam",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/d/dc/Spr_1y_065_SGB.png",
-            "blood_cost": 1,
-            "attack": 1,
+            "mox_cost": ["Blue"],
+            "attack": 5,
             "health": 1,
             "description": ""
         },
