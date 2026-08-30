@@ -2,8 +2,8 @@
     "ruleset": "Generation1 v0.1.",
     "hammers_per_turn": 0,
     "ant_limit": 4,
-    "deck_size_min": 6,
-    "max_commons_main": 10,
+    "deck_size_min": 10,
+    "max_commons_main": 0,
     "max_commons_side": 10,
     "num_candles": 2,
     "variable_attack_nerf": false,
@@ -688,7 +688,8 @@
             "blood_cost": 2,
             "attack": 3,
             "health": 1,
-            "description": ""
+            "description": "",
+            "rare": true
         },
         {
             "name": "Kadabra",
