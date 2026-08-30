@@ -349,7 +349,7 @@
         {
             "name": "NidoranF",
             "pixport_url": "https://archives.bulbagarden.net/media/upload/5/5e/Spr_1y_029_SGB.png",
-            "sigils": ["Evolver", "Warded"],
+            "sigils": ["Evolver"],
             "evolution": "Nidorina",
             "blood_cost": 2,
             "attack": 2,
