@@ -347,11 +347,12 @@
             "banned": true
         },
         {
-            "name": "Adder",
-            "sigils": ["Stinky"],
+            "name": "Skunk",
             "attack": 1,
-            "health": 2,
-            "blood_cost": 1
+            "health": 1,
+            "blood_cost": 1,
+            "sigils": ["Stinky", "Guardian"],
+            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
         },
         {
             "name": "Coyote",
