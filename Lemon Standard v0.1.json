@@ -1,7 +1,7 @@
 {
     "ruleset": "Lemon Standard v0.1",
     "hammers_per_turn": 1,
-    "ant_limit": 2,
+    "ant_limit": 3,
     "deck_size_min": 20,
     "max_commons_main": 4,
     "max_commons_side": 10,
@@ -614,31 +614,31 @@
         },
         {
             "name": "Worker Ant",
-            "attack": 0,
-            "health": 1,
+            "attack": -1,
+            "health": 3,
             "atkspecial": "ant",
             "blood_cost": 1
         },
         {
             "name": "Ant Queen",
-            "attack": 0,
-            "health": 3,
+            "attack": -1,
+            "health": 4,
             "atkspecial": "ant",
             "blood_cost": 2,
             "sigils": ["Ant Spawner"]
         },
         {
             "name": "Flying Ant",
-            "attack": 0,
-            "health": 1,
+            "attack": -1,
+            "health": 2,
             "atkspecial": "ant",
             "blood_cost": 1,
             "sigils": ["Airborne"]
         },
         {
             "name": "Bullet Ant",
-            "attack": 0,
-            "health": 1,
+            "attack": -1,
+            "health": 3,
             "atkspecial": "ant",
             "blood_cost": 2,
             "sigils": ["Double Strike"],
