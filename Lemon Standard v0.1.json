@@ -42,7 +42,7 @@
             "attack": 0,
             "health": 1,
             "rare": true,
-            "bone_cost": 7
+            "bone_cost": 6
         },
         {
             "name": "Bat",
@@ -395,8 +395,8 @@
         {
             "name": "Pronghorn",
             "attack": 1,
-            "health": 2,
-            "sigils": ["Trifurcated Strike", "Sprinter"],
+            "health": 4,
+            "sigils": ["Bifurcated Strike", "Sprinter"],
             "blood_cost": 2,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
@@ -433,7 +433,7 @@
             "name": "Sparrow",
             "attack": 1,
             "health": 2,
-            "sigils": ["Airborne", "Fercundity"],
+            "sigils": ["Fecundity (Kaycee)"],
             "blood_cost": 1,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
