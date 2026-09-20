@@ -1564,19 +1564,19 @@
             "name": "Empty Vessel",
             "attack": 0,
             "health": 2,
-            "energy_cost": -1,
+            "energy_cost": -2,
             "nosac": true,
             "banned": true
         },
         {
             "name": "Leaping Vessel",
-            "sigils": ["Mighty Leap", "Fledgling"],
+            "sigils": ["Mighty Leap", "Frozen Away"],
             "attack": 0,
             "health": 2,
-            "evolution": "L33pB0t",
             "energy_cost": 2,
             "nosac": true,
-            "banned": true
+            "banned": true,
+            "evolution": "Empty Vessel"
         },
         {
             "name": "Energized Vessel",
