@@ -1,5 +1,5 @@
 {
-    "ruleset": "Lemon Standard v0.1",
+    "ruleset": "Lemon Standard v0.11",
     "hammers_per_turn": 1,
     "ant_limit": 3,
     "deck_size_min": 20,
@@ -433,7 +433,7 @@
             "name": "Sparrow",
             "attack": 1,
             "health": 2,
-            "sigils": ["Fecundity (Kaycee)"],
+            "sigils": ["Airborne", "Fecundity (Kaycee)"],
             "blood_cost": 1,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
@@ -1306,9 +1306,9 @@
         },
         {
             "name": "Mage Knight",
-            "sigils": ["Gem Dependant", "Touch of Death"],
+            "sigils": ["Gem Dependant", "Guardian"],
             "attack": 1,
-            "health": 1,
+            "health": 4,
             "mox_cost": ["Orange"]
         },
         {
