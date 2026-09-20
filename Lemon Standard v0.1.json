@@ -424,9 +424,9 @@
         },
         {
             "name": "River Snapper",
-            "attack": 1,
+            "attack": 2,
             "health": 6,
-            "blood_cost": 1,
+            "blood_cost": 2,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
         {
@@ -572,9 +572,8 @@
         {
             "name": "Stoat",
             "attack": 1,
-            "health": 4,
-            "blood_cost": 1,
-            "conduit": true
+            "health": 6,
+            "blood_cost": 1
         },
         {
             "name": "Urayuli",
