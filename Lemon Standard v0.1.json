@@ -204,9 +204,9 @@
         {
             "name": "Hawk",
             "sigils": ["Airborne"],
-            "attack": 3,
+            "attack": 2,
             "health": 1,
-            "blood_cost": 2
+            "blood_cost": 1
         },
         {
             "name": "Hrokkall",
@@ -432,7 +432,7 @@
         {
             "name": "Sparrow",
             "attack": 1,
-            "health": 1,
+            "health": 2,
             "sigils": ["Airborne", "Fercundity"],
             "blood_cost": 1,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
