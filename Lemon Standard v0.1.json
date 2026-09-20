@@ -335,7 +335,7 @@
             "name": "Ouroboros",
             "sigils": ["Unkillable"],
             "attack": 0,
-            "health": 0,
+            "health": 1,
             "blood_cost": 2,
             "rare": true,
             "nosac": true,
