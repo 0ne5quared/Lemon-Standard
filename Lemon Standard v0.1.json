@@ -431,9 +431,9 @@
         },
         {
             "name": "Sparrow",
-            "attack": 2,
+            "attack": 1,
             "health": 1,
-            "sigils": ["Airborne"],
+            "sigils": ["Airborne", "Fercundity"],
             "blood_cost": 1,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
