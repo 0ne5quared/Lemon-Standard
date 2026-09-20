@@ -33,7 +33,7 @@
             "name": "Adder",
             "sigils": ["Touch of Death"],
             "attack": 1,
-            "health": 2,
+            "health": 1,
             "blood_cost": 1
         },
         {
@@ -42,7 +42,7 @@
             "attack": 0,
             "health": 1,
             "rare": true,
-            "blood_cost": 2
+            "bone_cost": 7
         },
         {
             "name": "Bat",
@@ -77,7 +77,7 @@
             "name": "Beehive",
             "sigils": ["Bees Within", "Mighty Leap"],
             "attack": 0,
-            "health": 3,
+            "health": 4,
             "blood_cost": 1
         },
         {
@@ -99,7 +99,7 @@
             "name": "Bullfrog",
             "sigils": ["Mighty Leap", "Sentry"],
             "attack": 1,
-            "health": 3,
+            "health": 2,
             "blood_cost": 1
         },
         {
@@ -203,7 +203,7 @@
         },
         {
             "name": "Hawk",
-            "sigils": ["Airborne", "Mighty Leap"],
+            "sigils": ["Airborne"],
             "attack": 3,
             "health": 1,
             "blood_cost": 2
@@ -234,10 +234,10 @@
         },
         {
             "name": "Kingfisher",
-            "sigils": ["Airborne", "Waterborne", "Noble Sacrifice"],
+            "sigils": ["Airborne", "Waterborne"],
             "attack": 1,
             "health": 1,
-            "blood_cost": 1
+            "bone_cost": 1
         },
         {
             "name": "Great Kraken",
@@ -313,7 +313,7 @@
         {
             "name": "Moose Buck",
             "attack": 3,
-            "health": 7,
+            "health": 6,
             "sigils": ["Hefty", "Sentry"],
             "blood_cost": 3,
             "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
@@ -333,11 +333,12 @@
         },
         {
             "name": "Ouroboros",
-            "sigils": ["Reconstitute"],
-            "attack": 1,
-            "health": 2,
+            "sigils": ["Unkillable"],
+            "attack": 0,
+            "health": 0,
             "blood_cost": 2,
             "rare": true,
+            "nosac": true,
             "description": "This card gains 1 power and 1 health each time it perishes."
         },
         {
@@ -507,7 +508,7 @@
         {
             "name": "Mothman",
             "sigils": ["Airborne"],
-            "attack": 6,
+            "attack": 7,
             "health": 4,
             "blood_cost": 3,
             "banned": true,
@@ -570,10 +571,10 @@
         },
         {
             "name": "Stoat",
-            "sigils": ["Guardian"],
             "attack": 1,
             "health": 4,
-            "blood_cost": 1
+            "blood_cost": 1,
+            "conduit": true
         },
         {
             "name": "Urayuli",
