@@ -432,7 +432,7 @@
         {
             "name": "Sparrow",
             "attack": 1,
-            "health": 2,
+            "health": 1,
             "sigils": ["Airborne", "Fecundity (Kaycee)"],
             "blood_cost": 1,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
