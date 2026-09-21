@@ -1,5 +1,5 @@
 {
-    "ruleset": "Lemon Standard v0.11",
+    "ruleset": "Lemon Standard v0.12",
     "hammers_per_turn": 1,
     "ant_limit": 3,
     "deck_size_min": 20,
@@ -775,7 +775,7 @@
             "attack": 2,
             "health": 1,
             "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-            "energy_cost": 1
+            "energy_cost": 0
         },
         {
             "name": "L33pB0t",
@@ -834,10 +834,10 @@
         {
             "name": "Scrap Golem",
             "sigils": ["Depleting", "Sharp Quills"],
-            "attack": 2,
-            "health": 1,
+            "attack": 1,
+            "health": 2,
             "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-            "energy_cost": 3
+            "energy_cost": 2
         },
         {
             "name": "Steel Mice",
