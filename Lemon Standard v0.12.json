@@ -1068,7 +1068,7 @@
             "name": "Pharaoh's Pets",
             "sigils": ["Worthy Sacrifice", "Many Lives"],
             "attack": 0,
-            "health": 2,
+            "health": 1,
             "bone_cost": 6,
             "rare": true,
             "description": "Note: This card was made rare due to it's strength. This card will become a cat after its worthy sacrifice sigil is used.",
