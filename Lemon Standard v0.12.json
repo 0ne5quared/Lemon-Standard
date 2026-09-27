@@ -1128,10 +1128,9 @@
         },
         {
             "name": "Mummy Lord",
-            "sigils": ["Reconstitute"],
-            "attack": 3,
-            "health": 3,
-            "bone_cost": 9
+            "attack": 4,
+            "health": 4,
+            "bone_cost": 11
         },
         {
             "name": "Necromancer",
@@ -1153,8 +1152,8 @@
             "name": "Sarcophagus",
             "sigils": ["Fledgling"],
             "attack": 0,
-            "health": 3,
-            "bone_cost": 4,
+            "health": 4,
+            "bone_cost": 5,
             "evolution": "Mummy Lord"
         },
         {
@@ -1201,18 +1200,17 @@
         {
             "name": "Gargoyle",
             "attack": 1,
-            "health": 4,
+            "health": 3,
             "bone_cost": 3,
             "sigils": ["Guardian", "Made of Stone"],
-            "description": "Custom card by syntaxevasion.\nLong overdue.",
-            "nosac": true
+            "description": "Custom card by syntaxevasion.\nLong overdue."
         },
         {
             "name": "Skeleton Crew",
             "attack": 2,
             "health": 1,
-            "sigils": ["Brittle"],
-            "bone_cost": 1
+            "sigils": ["Brittle", "Scavenger"],
+            "bone_cost": 2
         },
         {
             "name": "Zombie Parrot",
@@ -1228,6 +1226,7 @@
             "bone_cost": 1,
             "sigils": ["Acupuncture"],
             "active": true,
+            "banned": true
             "description": "Custom card and art by ener."
         },
         {
