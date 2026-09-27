@@ -1058,9 +1058,9 @@
         {
             "name": "Dead Hand",
             "sigils": ["Handy"],
-            "attack": 1,
+            "attack": 0,
             "health": 1,
-            "bone_cost": 6,
+            "bone_cost": 5,
             "description": "Note: Was made common due to lack of use.\nThen rare again.",
             "rare": true
         },
@@ -1177,6 +1177,7 @@
             "sigils": ["Disentomb (Corpses)"],
             "attack": 0,
             "health": 2,
+            "bone_cost": 1,
             "rare": true,
             "active": true,
             "description": "Note: Withered corpses have the Boneless sigil and will not drop bones.This change was made to prevent multiple infinite combos involving Tomb Robber."
