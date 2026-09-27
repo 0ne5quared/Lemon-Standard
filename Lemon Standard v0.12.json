@@ -1635,6 +1635,7 @@
             "name": "Acid Squirrel",
             "attack": 0,
             "health": 1,
+            "energy_cost": 1,
             "sigils": ["Reconstitute", "Boneless"],
             "banned": true,
             "rare": true,
@@ -1655,7 +1656,7 @@
             "sigils": ["Mighty Leap", "Made of Stone"],
             "energy_cost": 3,
             "attack": 0,
-            "health": 5,
+            "health": 4,
             "nosac": false,
             "description": "Emits a pale white light. You feel as though it calls to its brethren.",
             "banned": true
