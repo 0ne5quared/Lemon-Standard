@@ -135,7 +135,6 @@
         },
         {
             "name": "Corpse Maggots",
-            "sigils": ["Corpse Eater"],
             "attack": 1,
             "health": 2,
             "bone_cost": 4
@@ -254,7 +253,7 @@
             "health": 2,
             "sigils": ["Sprinter", "Touch of Death"],
             "sheds": "Vertebrae",
-            "bone_cost": 4,
+            "bone_cost": 5,
             "rare": true
         },
         {
@@ -1060,7 +1059,7 @@
             "sigils": ["Handy"],
             "attack": 0,
             "health": 1,
-            "bone_cost": 5,
+            "bone_cost": 6,
             "description": "Note: Was made common due to lack of use.\nThen rare again.",
             "rare": true
         },
