@@ -1417,8 +1417,9 @@
         {
             "name": "Mage Pupil",
             "sigils": ["Gem Dependant"],
-            "attack": 1,
-            "health": 3
+            "attack": 0,
+            "health": 1,
+            "atkspecial": "mox"
         },
         {
             "name": "Ruby Golem",
