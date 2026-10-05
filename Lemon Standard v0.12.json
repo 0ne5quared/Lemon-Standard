@@ -1505,8 +1505,8 @@
         },
         {
             "name": "Holo Mox",
-            "mox_cost": ["Orange"],
-            "sigils": ["Battery Bearer"],
+            "energy_cost": 3,
+            "sigils": ["Orange Mox"],
             "attack": 1,
             "health": 1,
             "description": "Custom card by FishGuy101"
