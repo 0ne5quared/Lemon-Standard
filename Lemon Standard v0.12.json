@@ -1208,7 +1208,7 @@
             "name": "Skeleton Crew",
             "attack": 2,
             "health": 1,
-            "sigils": ["Brittle", "Scavenger"],
+            "sigils": ["Brittle"],
             "bone_cost": 2
         },
         {
