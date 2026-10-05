@@ -1516,15 +1516,15 @@
             "mox_cost": ["Orange"],
             "blood_cost": 1,
             "sigils": ["Sprinter"],
-            "attack": 3,
-            "health": 2,
+            "attack": 2,
+            "health": 3,
             "description": "How hungry?\n\nCustom card by ener"
         },
         {
             "name": "Winged Guardian",
             "mox_cost": ["Orange", "Blue"],
-            "attack": 1,
-            "health": 5,
+            "attack": 2,
+            "health": 2,
             "sigils": ["Airborne", "Mighty Leap"],
             "description": "Custom card by Flare"
         },
