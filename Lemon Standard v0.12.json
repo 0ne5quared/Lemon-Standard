@@ -1410,7 +1410,7 @@
         {
             "name": "Practice Wizard",
             "attack": 0,
-            "health": 3,
+            "health": 4,
             "sigils": ["Made of Stone", "Burrower"],
             "mox_cost": ["Orange"]
         },
