@@ -774,7 +774,7 @@
             "attack": 2,
             "health": 1,
             "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-            "energy_cost": 0
+            "energy_cost": 1
         },
         {
             "name": "L33pB0t",
