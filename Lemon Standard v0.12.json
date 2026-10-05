@@ -158,8 +158,8 @@
         {
             "name": "Dire Wolf Pup",
             "attack": 1,
-            "health": 2,
-            "sigils": ["Bone Digger", "Fledgling 2"],
+            "health": 1,
+            "sigils": ["Bone Digger", "Fledgling"],
             "blood_cost": 1,
             "evolution": "Dire Wolf"
         },
@@ -1215,8 +1215,8 @@
             "name": "Zombie Parrot",
             "attack": 2,
             "health": 3,
+            "sigils": ["Brittle", "Airborne"],
             "bone_cost": 2,
-            "sigils": ["Brittle", "Airborne"]
         },
         {
             "name": "Voodoo Doll",
@@ -1225,7 +1225,6 @@
             "bone_cost": 1,
             "sigils": ["Acupuncture"],
             "active": true,
-            "banned": true
             "description": "Custom card and art by ener."
         },
         {
