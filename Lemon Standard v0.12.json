@@ -825,8 +825,8 @@
         {
             "name": "Rustbucket",
             "sigils": ["Depleting", "Depleting"],
-            "attack": 2,
-            "health": 5,
+            "attack": 3,
+            "health": 3,
             "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
             "energy_cost": 4
         },
@@ -946,10 +946,9 @@
         },
         {
             "name": "Steambot",
-            "sigils": ["Hefty"],
             "attack": 3,
             "health": 2,
-            "energy_cost": 6,
+            "energy_cost": 5,
             "description": "Note: This card's attack was increased to make it worth 6 energy."
         },
         {
